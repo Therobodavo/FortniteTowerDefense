@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\College Stuff\\Unreal\\FortniteTowerDefense\\FortniteTowerDefense\\Source\\FortniteTowerDefense\\FortniteTowerDefense.Build.cs",
+		"D:\\College Stuff\\Unreal\\FortniteTowerDefense\\FortniteTowerDefense\\Source\\FortniteTowerDefense.Target.cs",
+		"D:\\College Stuff\\Unreal\\FortniteTowerDefense\\FortniteTowerDefense\\Source\\FortniteTowerDefenseEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.2"
+}

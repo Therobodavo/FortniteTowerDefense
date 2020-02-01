@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FortniteTowerDefense",
+			"Path": "D:\\College Stuff\\Unreal\\FortniteTowerDefense\\FortniteTowerDefense\\Source\\FortniteTowerDefense.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FortniteTowerDefenseEditor",
+			"Path": "D:\\College Stuff\\Unreal\\FortniteTowerDefense\\FortniteTowerDefense\\Source\\FortniteTowerDefenseEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

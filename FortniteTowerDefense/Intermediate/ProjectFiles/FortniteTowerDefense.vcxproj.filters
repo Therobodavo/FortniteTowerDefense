@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FortniteTowerDefense.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{45254A05-B3AC-4195-BB74-69920BDC4978}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FortniteTowerDefense.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FortniteTowerDefenseEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{589DD4F8-C3A2-414B-BC24-D13B92223A5D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FortniteTowerDefense">
+      <UniqueIdentifier>{58E7E822-6A43-48F3-A475-296F7A2ABAE0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefense.Build.cs">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefense.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefense.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefenseGameModeBase.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefenseGameModeBase.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\Path.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\Enemy1.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\Path.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\Enemy1.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
