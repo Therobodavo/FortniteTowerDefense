@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FORTNITETOWERDEFENSE_Path_generated_h
 
 #define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_SPARSE_DATA
-#define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_RPC_WRAPPERS
-#define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawnEnemy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnEnemy(); \
+		P_NATIVE_END; \
+	}
+
+
+#define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnEnemy) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnEnemy(); \
+		P_NATIVE_END; \
+	}
+
+
 #define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPath(); \

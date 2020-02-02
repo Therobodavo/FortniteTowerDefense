@@ -17,6 +17,9 @@ std::vector<AEnemy1*> enemies;
 UObject* SpawnActor;
 UBlueprint* GeneratedBP;
 UClass* SpawnClass;
+FTimerDelegate TimerDel;
+FTimerHandle TimerHandle;
+
 // Sets default values
 APath::APath()
 {
@@ -41,38 +44,37 @@ APath::APath()
 	}
 }
 
+void APath::SpawnEnemy()
+{
+	TArray<USceneComponent*> t;
+	GetRootComponent()->GetChildrenComponents(true, t);
+	FVector Location;
+	for (USceneComponent* i : t)
+	{
+		if (i->GetName() == "Start")
+		{
+			Location = i->GetComponentLocation();
+		}
+	}
+	FRotator Rotation = GetActorRotation();
+	FActorSpawnParameters SpawnInfo;
+	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	enemies.push_back(GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
+}
+
 // Called when the game starts or when spawned
 void APath::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &APath::SpawnEnemy, 2.f, true);
+	//REMEMBER TO CLEAR TIMER IF THIS IS DELETED
+	//GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
 }
 
 // Called every frame
 void APath::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if (FDateTime().GetTicks() - lastSpawned > 6) 
-	{
-		
-		TArray<USceneComponent*> t;
-		GetRootComponent()->GetChildrenComponents(true, t);
-		FVector Location;
-		for (USceneComponent* i : t)
-		{
-			if (i->GetName() == "Start")
-			{
-				Location = i->GetComponentLocation();
-			}
-		}
-		FRotator Rotation = GetActorRotation();
-		FActorSpawnParameters SpawnInfo;
-		SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-		enemies.push_back(GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
-
-		lastSpawned = FDateTime().GetTicks();
-	}
-
 }
 

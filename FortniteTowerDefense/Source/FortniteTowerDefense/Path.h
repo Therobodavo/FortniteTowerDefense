@@ -14,7 +14,8 @@ class FORTNITETOWERDEFENSE_API APath : public AActor
 public:	
 	// Sets default values for this actor's properties
 	APath();
-
+	UFUNCTION()
+		void SpawnEnemy();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

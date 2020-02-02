@@ -9,7 +9,6 @@
 
 UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Stats")
 UStaticMeshComponent* collider;
-TArray<FString> collided;
 // Sets default values
 AEnemy1::AEnemy1()
 {
@@ -30,7 +29,7 @@ void AEnemy1::BeginPlay()
 			if (I->IsA(APath::StaticClass())) 
 			{
 				I->GetRootComponent()->GetChildrenComponents(true, PathBlocks);
-				//PathBlocks.RemoveAt(0,1,true);
+
 				for (USceneComponent* i : PathBlocks) 
 				{
 					if (i->GetName() == "1") 
@@ -77,7 +76,7 @@ void AEnemy1::Tick(float DeltaTime)
 
 void AEnemy1::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if (OverlappedComp != NULL) 
+	if (OtherComp != NULL)
 	{
 		if (OtherComp->ComponentHasTag("End"))
 		{
@@ -85,41 +84,18 @@ void AEnemy1::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 		}
 		if (OtherComp->ComponentHasTag("PathSpot") && OtherComp->GetName() != "Start")
 		{
-			FString s;
-			s.AppendInt(pathIndex);
-			bool beenHit = false;
-			for (FString c : collided) 
-			{
-				if (c == currentTarget->GetName()) 
-				{
-					beenHit = true;
-				}
-			}
-			if (!beenHit) 
-			{
-				
-				collided.Add(currentTarget->GetName());
-				pathIndex++;
-				s = "";
-				s.AppendInt(pathIndex);
+			pathIndex = FCString::Atoi(*OtherComp->GetName()) + 1;
 
-				for (USceneComponent* i : PathBlocks)
+			for (USceneComponent* i : PathBlocks)
+			{
+				FString temp;
+				temp.AppendInt(pathIndex);
+
+				if (i->GetName() == temp)
 				{
-					beenHit = false;
-					for (FString c : collided)
-					{
-						if (c == s)
-						{
-							beenHit = true;
-						}
-					}
-					if (i->GetName() == s && !beenHit)
-					{
-						currentTarget = i;
-					}
+					currentTarget = i;
 				}
 			}
-			
 		}
 	}
 }

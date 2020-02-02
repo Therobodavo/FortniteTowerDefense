@@ -17,10 +17,38 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 	FORTNITETOWERDEFENSE_API UClass* Z_Construct_UClass_APath();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_FortniteTowerDefense();
+	FORTNITETOWERDEFENSE_API UFunction* Z_Construct_UFunction_APath_SpawnEnemy();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void APath::StaticRegisterNativesAPath()
 	{
+		UClass* Class = APath::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "SpawnEnemy", &APath::execSpawnEnemy },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_APath_SpawnEnemy_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APath_SpawnEnemy_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Path.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APath_SpawnEnemy_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APath, nullptr, "SpawnEnemy", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APath_SpawnEnemy_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APath_SpawnEnemy_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APath_SpawnEnemy()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APath_SpawnEnemy_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_APath_NoRegister()
 	{
@@ -29,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 	struct Z_Construct_UClass_APath_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -43,6 +72,9 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 	UObject* (*const Z_Construct_UClass_APath_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_FortniteTowerDefense,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_APath_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_APath_SpawnEnemy, "SpawnEnemy" }, // 1922738347
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APath_Statics::Class_MetaDataParams[] = {
@@ -68,11 +100,11 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_APath_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_APath_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -87,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APath, 3322043507);
+	IMPLEMENT_CLASS(APath, 4210750632);
 	template<> FORTNITETOWERDEFENSE_API UClass* StaticClass<APath>()
 	{
 		return APath::StaticClass();
