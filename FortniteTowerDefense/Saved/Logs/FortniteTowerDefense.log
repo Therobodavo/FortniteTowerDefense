@@ -674,3 +674,98 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.03-00.44.49:681][982]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3022 classes and 722 folders.
 [2020.02.03-00.44.49:691][982]Display: HotReload took  0.1s.
 [2020.02.03-00.44.57:640][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.02.03-00.45.36:638][  4]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-00.45.36:639][  4]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-00.45.48:287][692]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-00.45.48:637][692]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
+[2020.02.03-00.45.50:043][692]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.03-00.45.50:206][692]LogRenderer: Reallocating scene render targets to support 760x456 Format 10 NumSamples 1 (Frame:1).
+[2020.02.03-00.45.58:208][717]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-00.45.58:213][717]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-00.45.58:237][717]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-00.45.58:237][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-00.46.07:254][172]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-00.46.07:255][172]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-00.46.13:558][538]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-00.46.14:053][538]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.03-00.46.16:653][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-00.46.16:752][677]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2020.02.03-00.46.16:879][677]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level125C10D154CC30CE43FBE11AD23946FD8.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap'
+[2020.02.03-00.46.16:987][677]AssetCheck: New page: Asset Save: Level1
+[2020.02.03-00.46.16:987][677]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2020.02.03-00.46.17:535][709]LogSlate: Window 'BP_Bullet' being destroyed
+[2020.02.03-00.46.17:541][709]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-00.46.17:541][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-00.46.19:475][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-00.46.19:511][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.02.03-00.46.19:549][819]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level124D99432439CAEE5AB1D4C9B2CDEAE0C.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap'
+[2020.02.03-00.46.19:596][819]AssetCheck: New page: Asset Save: Level1
+[2020.02.03-00.46.19:596][819]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2020.02.03-00.53.00:049][781]Candidate modules for hot reload:
+[2020.02.03-00.53.00:049][781]  FortniteTowerDefense
+[2020.02.03-00.53.00:049][781]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,2450 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-00.53.00:059][781]Warning: Starting HotReload took  0.0s.
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:53:14 PM
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-00.53.14:808][651]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 11.6352618 seconds
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-00.53.14:808][651]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.02.03-00.53.14:808][651]CompilerResultsLog:   [1/6] FortniteTowerDefense.init.gen.cpp
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:   [2/6] ShotgunTower.gen.cpp
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:   [3/6] ShotgunTower.cpp
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h(21) : error C2144: syntax error: 'FCanvas' should be preceded by ';'
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h(21) : error C2761: 'void AShotgunTower::BeginPlay(void)': redeclaration of member is not allowed
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:    D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h(21) : error C2086: 'FCanvas ': redefinition
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:   D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CanvasTypes.h(198): note: see declaration of 'FCanvas'
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:    D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.cpp(28) : error C2084: function 'AShotgunTower::AShotgunTower(void)' already has a body
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:   D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.cpp(7): note: see previous definition of '{ctor}'
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:    D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.cpp(102) : error C2447: '{': missing function header (old-style formal list?)
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:    D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.cpp(109) : error C2084: function 'void AShotgunTower::Tick(float)' already has a body
+[2020.02.03-00.53.14:809][651]CompilerResultsLog:   D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.cpp(70): note: see previous definition of 'Tick'
+[2020.02.03-00.53.14:809][651]LogMainFrame: MainFrame: Module compiling took 14.769 seconds
+[2020.02.03-00.53.14:809][651]Warning: HotReload failed, recompile failed
+[2020.02.03-00.54.35:240][661]LogSlate: Window 'Message Log' being destroyed
+[2020.02.03-00.54.35:245][661]LogSlate: Window 'Message Log' being destroyed
+[2020.02.03-00.54.44:205][917]Candidate modules for hot reload:
+[2020.02.03-00.54.44:205][917]  FortniteTowerDefense
+[2020.02.03-00.54.44:205][917]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,8787 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-00.54.44:215][917]Warning: Starting HotReload took  0.0s.
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:54:57 PM
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 8.5937307 seconds
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog:   [1/5] ShotgunTower.gen.cpp
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog:   [2/5] ShotgunTower.cpp
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog:   [3/5] UE4Editor-FortniteTowerDefense-8787.lib
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-8787.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-8787.exp
+[2020.02.03-00.54.57:107][  4]CompilerResultsLog:   [4/5] UE4Editor-FortniteTowerDefense-8787.dll
+[2020.02.03-00.54.57:108][  4]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-8787.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-8787.suppressed.exp
+[2020.02.03-00.54.57:108][  4]CompilerResultsLog:   [5/5] FortniteTowerDefenseEditor.target
+[2020.02.03-00.54.57:108][  4]CompilerResultsLog: Total time in Parallel executor: 2.41 seconds
+[2020.02.03-00.54.57:108][  4]CompilerResultsLog: Total execution time: 12.74 seconds
+[2020.02.03-00.54.57:108][  4]LogMainFrame: MainFrame: Module compiling took 12.913 seconds
+[2020.02.03-00.54.57:145][  4]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.02.03-00.54.57:177][  4]LogClass: Could not find existing class ShotgunTower in package /Script/FortniteTowerDefense for HotReload, assuming new class
+[2020.02.03-00.54.57:177][  4]LogClass: Function FireBullet is new.
+[2020.02.03-00.54.57:177][  4]LogClass: Function OnOverlap is new.
+[2020.02.03-00.54.57:190][  4]LogHotReload: Re-instancing ShotgunTower after hot-reload.
+[2020.02.03-00.54.57:594][  4]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2020.02.03-00.54.57:602][  4]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.54.57:732][  4]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.02.03-00.54.57:753][  4]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3022 classes and 722 folders.
+[2020.02.03-00.54.57:753][  4]Display: HotReload took 13.6s.
+[2020.02.03-00.55.06:325][477]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.02.03-00.55.06:359][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-00.55.06:524][477]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTower51CF7B674F89BD3914C39591D50D2AB5.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-00.55.06:548][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bullet" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset" SILENT=true
+[2020.02.03-00.55.06:562][477]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Bullet7FB1706B4E03A97E83C43FA034614A9D.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset'
+[2020.02.03-00.55.06:593][477]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.03-00.55.06:593][477]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-00.55.06:593][477]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
