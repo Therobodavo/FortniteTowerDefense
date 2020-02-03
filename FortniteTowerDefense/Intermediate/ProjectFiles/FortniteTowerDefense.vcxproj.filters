@@ -58,6 +58,9 @@
     <ClInclude Include="..\..\Source\FortniteTowerDefense\ShotgunTower.h">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\ARTower.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FortniteTowerDefense\Path.cpp">
@@ -73,6 +76,9 @@
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FortniteTowerDefense\ShotgunTower.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\ARTower.cpp">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClCompile>
   </ItemGroup>

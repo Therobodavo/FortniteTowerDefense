@@ -40,4 +40,5 @@ public:
 	UClass* SpawnClass;
 
 	float lastFired = 0;
+	float fireRate = 2;
 };

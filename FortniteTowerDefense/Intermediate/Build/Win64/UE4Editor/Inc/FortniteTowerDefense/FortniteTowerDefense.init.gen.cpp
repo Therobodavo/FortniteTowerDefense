@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFortniteTowerDefense_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x14BB7028,
-				0x9D8D0025,
+				0x22231221,
+				0x5CC723A5,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

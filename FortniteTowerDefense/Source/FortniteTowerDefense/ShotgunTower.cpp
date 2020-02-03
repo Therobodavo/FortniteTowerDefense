@@ -60,7 +60,7 @@ void AShotgunTower::Tick(float DeltaTime)
 	{
 		if (abs((I->GetActorLocation() - gunSpot->GetComponentLocation()).Size()) < 500)
 		{
-			if (GetWorld()->GetRealTimeSeconds() - lastFired > 1)
+			if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate)
 			{
 				FireBullet();
 				lastFired = GetWorld()->GetRealTimeSeconds();
@@ -77,13 +77,13 @@ void AShotgunTower::FireBullet()
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
-	Rotation = GetActorRotation() - FRotator(0,0,.05);
+	Rotation = GetActorRotation() - FRotator(0,3,0);
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
-	Rotation = GetActorRotation() - FRotator(0, 0, .1);
+	Rotation = GetActorRotation() - FRotator(0, 6, 0);
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
-	Rotation = GetActorRotation() + FRotator(0, 0, .05);
+	Rotation = GetActorRotation() + FRotator(0, 3, 0);
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
-	Rotation = GetActorRotation() + FRotator(0, 0, .1);
+	Rotation = GetActorRotation() + FRotator(0, 6, 0);
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
 }
 
