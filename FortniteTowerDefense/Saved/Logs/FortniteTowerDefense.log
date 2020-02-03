@@ -803,3 +803,270 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.03-00.58.10:198][608]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3022 classes and 722 folders.
 [2020.02.03-00.58.10:198][608]Display: HotReload took 51.7s.
 [2020.02.03-00.58.17:116][815]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2020.02.03-00.58.53:151][946]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-00.59.01:757][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-00.59.01:798][388]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1C595CCA8410EC39F6634A1AE16395485.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-00.59.01:817][388]AssetCheck: New page: Asset Save: BP_Enemy1
+[2020.02.03-00.59.01:817][388]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-00.59.04:595][548]LogSlate: Window 'BP_Enemy1' being destroyed
+[2020.02.03-00.59.04:633][548]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-00.59.04:633][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-00.59.41:700][205]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.01.18:631][714]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.01.18:672][714]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.01.18:672][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.01.23:435][990]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.01.52:482][647]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2020.02.03-01.01.52:490][647]LogSlate: Window 'Blueprint Debugger' being destroyed
+[2020.02.03-01.02.01:549][168]LogSlate: Window 'My Blueprint' being destroyed
+[2020.02.03-01.02.01:555][168]LogSlate: Window 'My Blueprint' being destroyed
+[2020.02.03-01.02.03:498][283]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.02.03:542][283]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.02.03:543][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.02.04:883][355]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-01.02.06:927][440]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.03-01.02.11:242][693]LogSlate: Window 'BP_Enemy1' being destroyed
+[2020.02.03-01.02.11:249][693]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.02.11:249][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.02.16:590][  3]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.02.19:539][144]BlueprintLog: New page: Compile BP_ShotgunTower
+[2020.02.03-01.02.19:983][144]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.02.03-01.02.51:935][625]LogSlate: Window 'Close Asset Editors?' being destroyed
+[2020.02.03-01.02.51:976][625]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.02.51:996][625]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.02.51:996][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.02.52:070][625]LogSlate: Window 'FortniteTowerDefense - Unreal Editor' being destroyed
+[2020.02.03-01.02.52:071][625]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.03-01.02.52:120][625]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SourceControl
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
+[2020.02.03-01.02.52:151][625]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar
+[2020.02.03-01.02.52:183][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-01.02.52:191][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-01.02.52:197][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-01.02.52:207][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-01.02.52:286][625]LogRenderer: Reallocating scene render targets to support 804x456 Format 10 NumSamples 1 (Frame:18).
+[2020.02.03-01.02.54:877][760]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.02.57:771][899]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.02.57:790][899]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.02.57:790][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.03.00:354][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.02.03-01.03.03:192][ 38]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.03-01.03.03:441][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.02.03-01.03.03:488][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.02.03-01.03.03:527][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.02.03-01.03.09:360][366]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-01.03.09:360][366]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-01.03.16:028][758]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.03.16:490][758]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.03-01.03.16:545][759]LogRenderer: Reallocating scene render targets to support 804x560 Format 10 NumSamples 1 (Frame:1).
+[2020.02.03-01.03.32:693][678]LogEditorTransaction: Undo Add Component
+[2020.02.03-01.05.13:523][577]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2020.02.03-01.05.13:532][577]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.14:089][577]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.14:112][577]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.14:140][577]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.02.03-01.05.14:141][577]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.02.03-01.05.14:141][577]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.02.03-01.05.14:141][577]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.02.03-01.05.14:141][577]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-01.05.17:443][731]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.02.03-01.05.17:465][732]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.02.03-01.05.17:535][735]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2020.02.03-01.05.17:619][739]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.02.03-01.05.18:272][768]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.18:310][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.02.03-01.05.18:327][768]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-01.05.18:369][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2020.02.03-01.05.19:052][797]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.02.03-01.05.19:072][798]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2020.02.03-01.05.19:474][815]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.02.03-01.05.19:894][832]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.19:928][832]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2020.02.03-01.05.19:950][832]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-01.05.20:315][846]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-01.05.20:458][852]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.02.03-01.05.20:924][873]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.02.03-01.05.20:971][875]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.02.03-01.05.21:172][883]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.21:239][883]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-01.05.21:653][899]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-01.05.22:062][917]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.02.03-01.05.22:186][923]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.02.03-01.05.22:349][931]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2020.02.03-01.05.22:473][936]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.22:533][936]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-01.05.23:217][964]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-01.05.23:439][974]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.02.03-01.05.23:514][978]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.02.03-01.05.23:866][995]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.23:898][995]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.02.03-01.05.23:919][995]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.02.03-01.05.23:955][995]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.03-01.05.24:790][ 33]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-01.05.24:976][ 41]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.02.03-01.05.25:058][ 45]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2020.02.03-01.05.25:162][ 50]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.02.03-01.05.26:246][ 97]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.02.03-01.05.26:546][112]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.02.03-01.05.26:587][114]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.02.03-01.05.26:797][123]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.02.03-01.05.27:037][130]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2020.02.03-01.05.27:705][159]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2020.02.03-01.05.27:903][168]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.02.03-01.05.28:029][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2020.02.03-01.05.28:149][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.02.03-01.05.28:510][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.02.03-01.05.28:669][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.02.03-01.05.29:285][173]LogSlate: Window 'Message' being destroyed
+[2020.02.03-01.05.30:343][173]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.30:412][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.02.03-01.05.30:413][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.02.03-01.05.30:413][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2020.02.03-01.05.30:413][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.02.03-01.05.30:484][173]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2020.02.03-01.05.30:716][173]LogUObjectHash: Compacting FUObjectHashTables data took   8.75ms
+[2020.02.03-01.05.30:753][173]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 77
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 76
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 75
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 74
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 73
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 72
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 71
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 70
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 69
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 68
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2020.02.03-01.05.33:005][173]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2020.02.03-01.05.33:017][173]TextureStreamingBuild: Display: Compiling optional shaders took 2.299 seconds.
+[2020.02.03-01.05.33:080][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.02.03-01.05.33:220][173]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.05.33:220][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.05.42:055][622]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.02.03-01.05.42:351][636]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2020.02.03-01.05.42:674][652]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2020.02.03-01.05.43:915][714]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.02.03-01.05.46:204][827]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.02.03-01.05.46:721][851]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.02.03-01.05.47:646][897]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.02.03-01.05.48:380][932]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2020.02.03-01.05.48:525][939]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.02.03-01.05.59:591][572]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.02.03-01.05.59:594][572]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.047
+[2020.02.03-01.05.59:595][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/BasicShapes/BasicShapeMaterial] ([1] browsable assets)...
+[2020.02.03-01.05.59:624][572]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial]
+[2020.02.03-01.05.59:624][572]OBJ SavePackage: Finished generating thumbnails for package [/Engine/BasicShapes/BasicShapeMaterial]
+[2020.02.03-01.05.59:661][572]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BasicShapeMaterial_Auto12DEBE75D485810345012768FC3C38E67.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Engine/BasicShapes/BasicShapeMaterial_Auto1.uasset'
+[2020.02.03-01.05.59:662][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_ShotgunTower] ([1] browsable assets)...
+[2020.02.03-01.05.59:690][572]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower]
+[2020.02.03-01.05.59:690][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ShotgunTower]
+[2020.02.03-01.05.59:723][572]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTower_Auto11AB8F1F6495BC267810275BD731B9667.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Blueprints/BP_ShotgunTower_Auto1.uasset'
+[2020.02.03-01.05.59:723][572]LogFileHelpers: Auto-saving content packages took 0.129
+[2020.02.03-01.07.41:226][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-01.07.41:263][544]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTower9629E753449FBD31C4EA9D904EF568CD.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-01.07.41:295][544]AssetCheck: New page: Asset Save: BP_ShotgunTower
+[2020.02.03-01.07.41:295][544]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.09.46:256][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-01.09.46:292][292]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTower65A3E96040B2E40AC83202A67EB431D8.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-01.09.46:308][292]AssetCheck: New page: Asset Save: BP_ShotgunTower
+[2020.02.03-01.09.46:308][292]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.09.48:485][420]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.09.48:526][420]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.09.48:526][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.17.39:443][ 10]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Thero/Desktop/HELP/TacticalShotgun.obj)
+[2020.02.03-01.17.39:763][ 10]LogFbx: Loading FBX Scene from C:/Users/Thero/Desktop/HELP/TacticalShotgun.obj
+[2020.02.03-01.17.39:990][ 10]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.03-01.17.45:554][ 10]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.02.03-01.17.46:023][ 10]LogMaterial: Display: Missing cached shader map for material polySurface78Mat, compiling. 
+[2020.02.03-01.17.46:057][ 10]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-01.17.46:057][ 10]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.02.03-01.17.46:057][ 10]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.02.03-01.17.46:057][ 10]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.02.03-01.17.46:057][ 10]LogFbx: Display: Triangulating static mesh polySurface78
+[2020.02.03-01.17.47:509][ 10]LogStaticMesh: Building static mesh TacticalShotgun...
+[2020.02.03-01.17.48:037][ 10]LogStaticMesh: Built static mesh [0.52s] /Game/Models/TacticalShotgun.TacticalShotgun
+[2020.02.03-01.17.48:382][ 10]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Thero/Desktop/HELP/TacticalShotgun_BaseColor.png)
+[2020.02.03-01.17.48:912][ 10]LogTexture: Display: Building textures: TacticalShotgun_BaseColor (AutoDXT, 4096X4096)
+[2020.02.03-01.17.54:432][181]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2020.02.03-01.17.54:438][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.099
+[2020.02.03-01.17.54:438][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/TacticalShotgun] ([1] browsable assets)...
+[2020.02.03-01.17.54:464][181]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/TacticalShotgun.TacticalShotgun]
+[2020.02.03-01.17.54:465][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/TacticalShotgun]
+[2020.02.03-01.17.54:565][181]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/TacticalShotgun_Auto2946F63CA4DA41F69DC9EBEA50442735E.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/TacticalShotgun_Auto2.uasset'
+[2020.02.03-01.17.54:565][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/polySurface78Mat] ([1] browsable assets)...
+[2020.02.03-01.17.54:590][181]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/polySurface78Mat.polySurface78Mat]
+[2020.02.03-01.17.54:590][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/polySurface78Mat]
+[2020.02.03-01.17.54:606][181]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/polySurface78Mat_Auto2415B8187438C013080143CAD40626315.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/polySurface78Mat_Auto2.uasset'
+[2020.02.03-01.17.54:606][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/TacticalShotgun_BaseColor] ([1] browsable assets)...
+[2020.02.03-01.17.54:614][181]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/TacticalShotgun_BaseColor.TacticalShotgun_BaseColor]
+[2020.02.03-01.17.54:614][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/TacticalShotgun_BaseColor]
+[2020.02.03-01.17.55:209][181]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/TacticalShotgun_BaseColor_Auto29D392B234CC0E8C2238B929D224CC53E.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/TacticalShotgun_BaseColor_Auto2.uasset'
+[2020.02.03-01.17.55:209][181]LogFileHelpers: Auto-saving content packages took 0.771
+[2020.02.03-01.18.04:678][736]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.18.09:457][961]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2020.02.03-01.18.10:846][962]LogRenderer: Reallocating scene render targets to support 944x584 Format 10 NumSamples 1 (Frame:1).
+[2020.02.03-01.18.12:074][ 33]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.18.12:074][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.20.17:387][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-01.20.17:477][337]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTowerD22997704F13DB769293A095574AC3A7.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-01.20.17:508][337]AssetCheck: New page: Asset Save: BP_ShotgunTower
+[2020.02.03-01.20.17:508][337]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.20.18:653][400]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.20.18:700][400]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.20.18:700][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.20.27:043][875]LogMaterial: Display: Missing cached shader map for material TacticalShotgun_BaseColor_Mat, compiling. 
+[2020.02.03-01.20.27:124][875]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-01.20.27:124][875]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2020.02.03-01.20.27:124][875]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.02.03-01.20.27:124][875]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.02.03-01.20.32:564][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.02.03-01.20.56:703][591]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.22.15:279][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-01.22.15:315][123]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTower929A52FC48D2FBA7F11F7CAFE5F2B2E3.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-01.22.15:336][123]AssetCheck: New page: Asset Save: BP_ShotgunTower
+[2020.02.03-01.22.15:336][123]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.23.42:772][107]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2020.02.03-01.23.44:575][182]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.23.44:575][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.23.49:248][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-01.23.49:279][430]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTowerCCD20346473B7A7C4DCD09A70EA89209.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-01.23.49:305][430]AssetCheck: New page: Asset Save: BP_ShotgunTower
+[2020.02.03-01.23.49:305][430]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.24.25:851][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ShotgunTower" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset" SILENT=true
+[2020.02.03-01.24.25:894][572]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_ShotgunTower8F5F2E7643F0084290DE6DA2B7C5635F.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_ShotgunTower.uasset'
+[2020.02.03-01.24.25:921][572]AssetCheck: New page: Asset Save: BP_ShotgunTower
+[2020.02.03-01.24.25:921][572]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.24.35:715][833]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.24.35:746][833]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.24.35:746][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.24.37:587][935]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-01.24.42:031][165]LogSlate: Window 'BP_Bullet' being destroyed
+[2020.02.03-01.24.42:060][165]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.24.42:060][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.24.51:504][636]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2020.02.03-01.24.51:549][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-01.24.51:617][636]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.02.03-01.24.51:660][636]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level161EFDCB144D0AAA21EA6B9A3BF0F4A06.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap'
+[2020.02.03-01.24.51:700][636]LogFileHelpers: Saving map 'Level1' took 0.151
+[2020.02.03-01.24.51:700][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2020.02.03-01.24.51:716][636]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BasicShapeMaterial2DA5D91744D1522A51D9D28C5E88061F.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2020.02.03-01.24.51:757][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/TacticalShotgun" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/TacticalShotgun.uasset" SILENT=true
+[2020.02.03-01.24.51:807][636]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/TacticalShotgun8587F03242A6CE9A3AAF1CB2EF0AD3CD.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/TacticalShotgun.uasset'
+[2020.02.03-01.24.51:812][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/polySurface78Mat" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/polySurface78Mat.uasset" SILENT=true
+[2020.02.03-01.24.51:826][636]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/polySurface78Mat1E6188A148FD2734338CBA97CFC94853.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/polySurface78Mat.uasset'
+[2020.02.03-01.24.53:161][636]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/TacticalShotgun_BaseColorD9B94FEC4B12FC389BC461B32B95144A.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/TacticalShotgun_BaseColor.uasset'
+[2020.02.03-01.24.53:211][636]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/TacticalShotgun_BaseColor_Mat9F236E424CDEA7D5DE74BDBDB38E4D44.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/TacticalShotgun_BaseColor_Mat.uasset'
+[2020.02.03-01.24.53:286][636]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial
+[2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating StaticMesh /Game/Models/TacticalShotgun.TacticalShotgun
+[2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Material /Game/Models/polySurface78Mat.polySurface78Mat
+[2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Texture2D /Game/Models/TacticalShotgun_BaseColor.TacticalShotgun_BaseColor
+[2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Material /Game/Models/TacticalShotgun_BaseColor_Mat.TacticalShotgun_BaseColor_Mat
