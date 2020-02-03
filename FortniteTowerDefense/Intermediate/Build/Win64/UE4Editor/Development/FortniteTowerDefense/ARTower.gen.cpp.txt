@@ -2,6 +2,4 @@ D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\B
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense/ARTower.h
-D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.h
-D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Inc\FortniteTowerDefense\ShotgunTower.generated.h
 D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Inc\FortniteTowerDefense\ARTower.generated.h

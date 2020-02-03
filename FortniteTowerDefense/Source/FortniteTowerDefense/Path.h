@@ -23,7 +23,13 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	UFUNCTION()
+		void SpawnTower(int type);
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "BP")
 		AActor* enemyBP;
+
+	int wave = 1;
+	int health = 200;
+	int money = 0;
 };
