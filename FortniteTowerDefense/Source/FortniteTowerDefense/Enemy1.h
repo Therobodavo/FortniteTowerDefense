@@ -10,8 +10,8 @@ UCLASS()
 class FORTNITETOWERDEFENSE_API AEnemy1 : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AEnemy1();
 
@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UFUNCTION(BlueprintCallable, Category = "PathFollowing")
@@ -27,12 +27,12 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "PathFollowing")
 		TArray<USceneComponent*> PathBlocks;
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "PathFollowing")
-		FVector Direction;		
+		FVector Direction;
 
 	USceneComponent* currentTarget;
-	FFloat16 Speed = 100;
+	float Speed = 100;
 	int pathIndex = 1;
 	bool isMoving = false;
-	FFloat16 Health = 100;
+	float Health = 100;
 
 };

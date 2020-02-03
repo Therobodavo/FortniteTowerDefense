@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "Path.h"
@@ -20,28 +20,16 @@ UClass* SpawnClass;
 FTimerDelegate TimerDel;
 FTimerHandle TimerHandle;
 
-// Sets default values
+//Sets default values
 APath::APath()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	//Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	//Gets Blueprint for enemy1
 	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/Blueprints/BP_Enemy1.BP_Enemy1'")));
 	GeneratedBP = Cast<UBlueprint>(SpawnActor);
 	SpawnClass = SpawnActor->StaticClass();
-
-	if (!SpawnActor)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("CANT FIND OBJECT TO SPAWN")));
-		return;
-	}
-
-	if (SpawnClass == NULL)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Red, FString::Printf(TEXT("CLASS == NULL")));
-		return;
-	}
 }
 
 void APath::SpawnEnemy()
@@ -62,7 +50,7 @@ void APath::SpawnEnemy()
 	enemies.push_back(GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
 }
 
-// Called when the game starts or when spawned
+//Called when the game starts or when spawned
 void APath::BeginPlay()
 {
 	Super::BeginPlay();
@@ -72,7 +60,7 @@ void APath::BeginPlay()
 	//GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
 }
 
-// Called every frame
+//Called every frame
 void APath::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

@@ -12,7 +12,7 @@ UStaticMeshComponent* collider;
 // Sets default values
 AEnemy1::AEnemy1()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	Speed = 300;
 	isMoving = true;
@@ -24,15 +24,15 @@ void AEnemy1::BeginPlay()
 	Super::BeginPlay();
 	for (TObjectIterator<APath> I; I; ++I)
 	{
-		if (I->GetName() == "MAPPATH") 
+		if (I->GetName() == "MAPPATH")
 		{
-			if (I->IsA(APath::StaticClass())) 
+			if (I->IsA(APath::StaticClass()))
 			{
 				I->GetRootComponent()->GetChildrenComponents(true, PathBlocks);
 
-				for (USceneComponent* i : PathBlocks) 
+				for (USceneComponent* i : PathBlocks)
 				{
-					if (i->GetName() == "1") 
+					if (i->GetName() == "1")
 					{
 						currentTarget = i;
 					}
@@ -45,31 +45,35 @@ void AEnemy1::BeginPlay()
 
 		for (int i = 0; i < allComponents.Max(); i++)
 		{
-			if (allComponents[i]->GetName() == "Collider") 
+			if (allComponents[i]->GetName() == "Collider")
 			{
 				collider = Cast<UStaticMeshComponent>(allComponents[i]);
-				if (collider != NULL) 
+				if (collider != NULL)
 				{
 					collider->OnComponentBeginOverlap.AddDynamic(this, &AEnemy1::OnOverlap);
 				}
-	
+
 			}
 		}
 	}
-	
+
 }
 
 // Called every frame
 void AEnemy1::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (isMoving) 
+	if (isMoving)
 	{
 		//Move to current pathspot
 		FVector myPos = GetActorLocation();
 		FVector spotLocation = currentTarget->GetComponentLocation();
 		Direction = (spotLocation - myPos).GetSafeNormal();
 		SetActorLocation(GetActorLocation() + (Speed * Direction * DeltaTime));
+	}
+	if (Health <= 0)
+	{
+		Destroy();
 	}
 
 }
