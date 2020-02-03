@@ -67,9 +67,14 @@ void AEnemy1::Tick(float DeltaTime)
 	{
 		//Move to current pathspot
 		FVector myPos = GetActorLocation();
-		FVector spotLocation = currentTarget->GetComponentLocation();
-		Direction = (spotLocation - myPos).GetSafeNormal();
-		SetActorLocation(GetActorLocation() + (Speed * Direction * DeltaTime));
+		if (currentTarget != NULL) 
+		{
+			FVector spotLocation = currentTarget->GetComponentLocation();
+			Direction = (spotLocation - myPos).GetSafeNormal();
+			SetActorLocation(GetActorLocation() + (Speed * Direction * DeltaTime));
+		}
+		
+		
 	}
 	if (Health <= 0)
 	{

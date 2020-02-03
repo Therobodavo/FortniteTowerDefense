@@ -28,7 +28,7 @@ void ABullet::BeginPlay()
 			collider = Cast<UStaticMeshComponent>(part);
 			if (collider != NULL)
 			{
-			collider->OnComponentBeginOverlap.AddDynamic(this, &ABullet::OnOverlap);
+				collider->OnComponentBeginOverlap.AddDynamic(this, &ABullet::OnOverlap);
 			}
 		}
 	}

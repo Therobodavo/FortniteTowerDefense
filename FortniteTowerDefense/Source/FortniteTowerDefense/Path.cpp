@@ -12,14 +12,14 @@
 
 UPROPERTY(BlueprintReadWrite)
 TSubclassOf<AEnemy1> Enemy1Class;
+
 float lastSpawned = 0;
 std::vector<AEnemy1*> enemies;
-UObject* SpawnActor;
-UBlueprint* GeneratedBP;
-UClass* SpawnClass;
+UObject* SpawnActor = NULL;
+UBlueprint* GeneratedBP = NULL;
+UClass* SpawnClass = NULL;
 FTimerDelegate TimerDel;
 FTimerHandle TimerHandle;
-
 //Sets default values
 APath::APath()
 {
@@ -39,15 +39,21 @@ void APath::SpawnEnemy()
 	FVector Location;
 	for (USceneComponent* i : t)
 	{
-		if (i->GetName() == "Start")
+		if (i != NULL) 
 		{
-			Location = i->GetComponentLocation();
+			if (i->GetName() == "Start")
+			{
+				Location = i->GetComponentLocation();
+			}
 		}
 	}
 	FRotator Rotation = GetActorRotation();
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-	enemies.push_back(GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
+	AEnemy1* e = GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo);
+	e->Health = 50 + (wave * 50);
+	e->Speed = 300 + (wave * 10);
+	enemies.push_back(e);
 }
 
 //Called when the game starts or when spawned
@@ -64,5 +70,14 @@ void APath::BeginPlay()
 void APath::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (enemiesSpawned >= wave * 3) 
+	{
+		GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
+		waveStarted = false;
+	}
+}
+
+void APath::SpawnTower(int type)
+{
 }
 

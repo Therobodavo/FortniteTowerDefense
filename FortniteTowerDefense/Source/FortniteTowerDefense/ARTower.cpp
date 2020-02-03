@@ -29,25 +29,28 @@ void AARTower::BeginPlay()
 	GetRootComponent()->GetChildrenComponents(true, parts);
 	for (USceneComponent* currentPart : parts)
 	{
-		if (currentPart->GetName() == "GunSpot")
+		if (currentPart != NULL) 
 		{
-			gunSpot = currentPart;
-		}
-		if (currentPart->GetName() == "Tower")
-		{
-			tower = currentPart;
-		}
-		if (currentPart->GetName() == "Gun")
-		{
-			gun = currentPart;
-		}
-		if (currentPart->GetName() == "Display")
-		{
-			display = currentPart;
-		}
-		if (currentPart->GetName() == "Bullet")
-		{
-			bullet = currentPart;
+			if (currentPart->GetName() == "GunSpot")
+			{
+				gunSpot = currentPart;
+			}
+			if (currentPart->GetName() == "Tower")
+			{
+				tower = currentPart;
+			}
+			if (currentPart->GetName() == "Gun")
+			{
+				gun = currentPart;
+			}
+			if (currentPart->GetName() == "Display")
+			{
+				display = currentPart;
+			}
+			if (currentPart->GetName() == "Bullet")
+			{
+				bullet = currentPart;
+			}
 		}
 	}
 }

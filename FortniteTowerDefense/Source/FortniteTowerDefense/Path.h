@@ -19,7 +19,6 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -32,4 +31,6 @@ public:
 	int wave = 1;
 	int health = 200;
 	int money = 0;
+	bool waveStarted = false;
+	int enemiesSpawned = 0;
 };

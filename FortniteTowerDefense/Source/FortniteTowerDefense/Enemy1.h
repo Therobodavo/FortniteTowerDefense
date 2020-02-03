@@ -29,10 +29,10 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "PathFollowing")
 		FVector Direction;
 
-	USceneComponent* currentTarget;
-	float Speed = 100;
+	USceneComponent* currentTarget = NULL;
+	float Speed = 300;
 	int pathIndex = 1;
 	bool isMoving = false;
-	float Health = 100;
+	float Health = 500;
 
 };

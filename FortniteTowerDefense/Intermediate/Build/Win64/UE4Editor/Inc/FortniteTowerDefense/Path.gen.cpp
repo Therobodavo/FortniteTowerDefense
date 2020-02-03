@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_FortniteTowerDefense();
 	FORTNITETOWERDEFENSE_API UFunction* Z_Construct_UFunction_APath_SpawnEnemy();
+	FORTNITETOWERDEFENSE_API UFunction* Z_Construct_UFunction_APath_SpawnTower();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void APath::StaticRegisterNativesAPath()
@@ -25,6 +26,7 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 		UClass* Class = APath::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "SpawnEnemy", &APath::execSpawnEnemy },
+			{ "SpawnTower", &APath::execSpawnTower },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -47,6 +49,38 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APath_SpawnEnemy_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APath_SpawnTower_Statics
+	{
+		struct Path_eventSpawnTower_Parms
+		{
+			int32 type;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APath_SpawnTower_Statics::NewProp_type = { "type", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Path_eventSpawnTower_Parms, type), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APath_SpawnTower_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APath_SpawnTower_Statics::NewProp_type,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APath_SpawnTower_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Path.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APath_SpawnTower_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APath, nullptr, "SpawnTower", nullptr, nullptr, sizeof(Path_eventSpawnTower_Parms), Z_Construct_UFunction_APath_SpawnTower_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APath_SpawnTower_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APath_SpawnTower_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APath_SpawnTower_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APath_SpawnTower()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APath_SpawnTower_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -75,6 +109,7 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APath_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APath_SpawnEnemy, "SpawnEnemy" }, // 1922738347
+		{ &Z_Construct_UFunction_APath_SpawnTower, "SpawnTower" }, // 1561756676
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APath_Statics::Class_MetaDataParams[] = {
@@ -119,7 +154,7 @@ void EmptyLinkFunctionForGeneratedCodePath() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APath, 4210750632);
+	IMPLEMENT_CLASS(APath, 24258547);
 	template<> FORTNITETOWERDEFENSE_API UClass* StaticClass<APath>()
 	{
 		return APath::StaticClass();

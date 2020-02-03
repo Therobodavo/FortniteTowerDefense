@@ -15,7 +15,7 @@ AShotgunTower::AShotgunTower()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	////Gets Blueprint for projectile
+	//Gets Blueprint for projectile
 	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/Blueprints/BP_Bullet.BP_Bullet'")));
 	GeneratedBP = Cast<UBlueprint>(SpawnActor);
 	SpawnClass = SpawnActor->StaticClass();

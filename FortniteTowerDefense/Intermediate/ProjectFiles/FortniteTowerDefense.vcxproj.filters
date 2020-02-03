@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FortniteTowerDefense.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{45254A05-B3AC-4195-BB74-69920BDC4978}</UniqueIdentifier>
+      <UniqueIdentifier>{FD2A2CB8-3694-485D-A9AB-DAB77695BEFC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FortniteTowerDefense.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{589DD4F8-C3A2-414B-BC24-D13B92223A5D}</UniqueIdentifier>
+      <UniqueIdentifier>{3D6C9354-3AD2-44B9-93E9-1E62E9899C20}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,30 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\FortniteTowerDefense">
-      <UniqueIdentifier>{58E7E822-6A43-48F3-A475-296F7A2ABAE0}</UniqueIdentifier>
+      <UniqueIdentifier>{8BA9B968-8E43-444B-8DC8-5969BC871326}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\ARTower.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\ARTower.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\Bullet.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\Bullet.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\Enemy1.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\Enemy1.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
     <None Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefense.Build.cs">
       <Filter>Source\FortniteTowerDefense</Filter>
     </None>
@@ -41,45 +62,29 @@
     <ClInclude Include="..\..\Source\FortniteTowerDefense\FortniteTowerDefenseGameModeBase.h">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FortniteTowerDefense\Path.h">
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\MyGameModeBase.cpp">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\MyGameModeBase.h">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\FortniteTowerDefense\Enemy1.h">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FortniteTowerDefense\ShothunTower.h">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FortniteTowerDefense\Bullet.h">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FortniteTowerDefense\ShotgunTower.h">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\FortniteTowerDefense\ARTower.h">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\FortniteTowerDefense\Path.cpp">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FortniteTowerDefense\Enemy1.cpp">
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\Path.h">
       <Filter>Source\FortniteTowerDefense</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FortniteTowerDefense\ShothunTower.cpp">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\FortniteTowerDefense\Bullet.cpp">
-      <Filter>Source\FortniteTowerDefense</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FortniteTowerDefense\ShotgunTower.cpp">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FortniteTowerDefense\ARTower.cpp">
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\ShotgunTower.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\TD_Pawn.cpp">
       <Filter>Source\FortniteTowerDefense</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\TD_Pawn.h">
+      <Filter>Source\FortniteTowerDefense</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

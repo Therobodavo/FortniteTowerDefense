@@ -16,6 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_SPARSE_DATA
 #define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSpawnTower) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_type); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnTower(Z_Param_type); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSpawnEnemy) \
 	{ \
 		P_FINISH; \
@@ -26,6 +35,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FortniteTowerDefense_Source_FortniteTowerDefense_Path_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnTower) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_type); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnTower(Z_Param_type); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSpawnEnemy) \
 	{ \
