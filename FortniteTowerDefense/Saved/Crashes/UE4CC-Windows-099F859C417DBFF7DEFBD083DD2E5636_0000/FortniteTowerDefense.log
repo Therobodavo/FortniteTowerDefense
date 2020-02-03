@@ -874,38 +874,3 @@ Script Stack (0 frames):
 [2020.02.03-02.20.08:422][810]LogOutputDevice: Error: [Callstack] 0x00007ffc0228ced1 ntdll.dll!UnknownFunction []
 [2020.02.03-02.20.08:422][810]LogOutputDevice: Error: 
 [2020.02.03-02.20.08:453][810]LogStats:                SubmitErrorReport -  0.000 s
-[2020.02.03-02.20.10:064][810]LogStats:                    SendNewReport -  1.611 s
-[2020.02.03-02.20.10:064][810]LogStats:             FDebug::EnsureFailed -  1.979 s
-[2020.02.03-02.20.10:067][810]LogTemp: Resetting audio stream to device id 
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Is Default: Yes
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Sample Rate: 48000
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Channel Count Used: 2
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Device Channel Count: 2
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: Channel Order:
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: 0: FrontLeft
-[2020.02.03-02.20.10:087][810]LogAudioMixer: Display: 1: FrontRight
-[2020.02.03-02.20.10:103][810]LogTemp: Resetting audio stream to device id 
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Is Default: Yes
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Sample Rate: 48000
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Channel Count Used: 2
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Device Channel Count: 2
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: Channel Order:
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: 0: FrontLeft
-[2020.02.03-02.20.10:123][810]LogAudioMixer: Display: 1: FrontRight
-[2020.02.03-02.20.31:380][ 85]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.02.03-02.20.31:380][ 85]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.02.03-02.20.31:724][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.03-02.20.31:724][ 85]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
-[2020.02.03-02.20.31:724][ 85]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.02.03-02.20.31:724][ 85]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
-[2020.02.03-02.20.31:725][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.02.03-02.20.31:740][ 85]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.02.03-02.20.31:772][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.02.03-02.20.31:814][ 85]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.02.03-02.20.31:818][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.03-02.20.31:870][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
-[2020.02.03-02.20.31:893][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_8
