@@ -658,3 +658,91 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.03-00.34.22:079][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
 [2020.02.03-00.34.22:098][985]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3020 classes and 722 folders.
 [2020.02.03-00.34.22:098][985]Display: HotReload took 27.1s.
+[2020.02.03-00.36.14:316][955]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-00.36.14:316][955]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.02.03-00.36.14:368][955]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.03-00.36.16:644][ 73]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-00.36.24:728][539]Candidate modules for hot reload:
+[2020.02.03-00.36.24:728][539]  FortniteTowerDefense
+[2020.02.03-00.36.24:729][539]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,2092 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-00.36.42:081][539]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:36:42 PM
+[2020.02.03-00.36.42:081][539]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-00.36.42:081][539]CompilerResultsLog: Invalidating makefile for FortniteTowerDefenseEditor (source file added)
+[2020.02.03-00.36.42:081][539]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-00.36.42:081][539]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-00.36.42:081][539]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 11.1983782 seconds
+[2020.02.03-00.36.42:081][539]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-00.36.42:082][539]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-00.36.42:082][539]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [1/6] ShothunTower.cpp
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [2/6] FortniteTowerDefense.init.gen.cpp
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [3/6] ShothunTower.gen.cpp
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [4/6] UE4Editor-FortniteTowerDefense-2092.lib
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.exp
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [5/6] UE4Editor-FortniteTowerDefense-2092.dll
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.suppressed.exp
+[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [6/6] FortniteTowerDefenseEditor.target
+[2020.02.03-00.36.42:082][539]CompilerResultsLog: Total time in Parallel executor: 2.34 seconds
+[2020.02.03-00.36.42:082][539]CompilerResultsLog: Total execution time: 17.20 seconds
+[2020.02.03-00.36.42:082][539]LogMainFrame: MainFrame: Module compiling took 17.363 seconds
+[2020.02.03-00.36.42:125][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.02.03-00.36.42:155][539]LogClass: Could not find existing class ShothunTower in package /Script/FortniteTowerDefense for HotReload, assuming new class
+[2020.02.03-00.36.42:160][539]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2020.02.03-00.36.42:165][539]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.36.42:260][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.02.03-00.36.42:284][539]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 3021 classes and 722 folders.
+[2020.02.03-00.36.42:284][539]Display: HotReload took 17.6s.
+[2020.02.03-00.36.42:292][539]Warning: HotReload operation took 17.6s.
+[2020.02.03-00.36.42:960][539]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.03-00.36.42:976][539]LogHotReload: New module detected: UE4Editor-FortniteTowerDefense-2092.dll
+[2020.02.03-00.36.43:093][540]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.03-00.36.43:155][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.02.03-00.36.43:163][540]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2020.02.03-00.36.43:169][540]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.36.43:205][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.02.03-00.36.43:232][540]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 3021 classes and 722 folders.
+[2020.02.03-00.36.43:243][540]Display: HotReload took  0.1s.
+[2020.02.03-00.36.55:470][675]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-00.36.55:471][675]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.02.03-00.36.58:108][814]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-00.37.02:886][ 84]Candidate modules for hot reload:
+[2020.02.03-00.37.02:886][ 84]  FortniteTowerDefense
+[2020.02.03-00.37.02:886][ 84]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,7104 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:37:19 PM
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Invalidating makefile for FortniteTowerDefenseEditor (source file added)
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 10.3526592 seconds
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [1/6] Bullet.cpp
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [2/6] FortniteTowerDefense.init.gen.cpp
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [3/6] Bullet.gen.cpp
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [4/6] UE4Editor-FortniteTowerDefense-7104.lib
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.exp
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [5/6] UE4Editor-FortniteTowerDefense-7104.dll
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.suppressed.exp
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [6/6] FortniteTowerDefenseEditor.target
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Total time in Parallel executor: 2.40 seconds
+[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Total execution time: 16.20 seconds
+[2020.02.03-00.37.19:232][ 84]LogMainFrame: MainFrame: Module compiling took 16.354 seconds
+[2020.02.03-00.37.19:270][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.02.03-00.37.19:301][ 84]LogClass: Could not find existing class Bullet in package /Script/FortniteTowerDefense for HotReload, assuming new class
+[2020.02.03-00.37.19:316][ 84]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.02.03-00.37.19:321][ 84]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.37.19:416][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.02.03-00.37.19:438][ 84]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 3022 classes and 722 folders.
+[2020.02.03-00.37.19:438][ 84]Display: HotReload took 16.6s.
+[2020.02.03-00.37.19:440][ 84]Warning: HotReload operation took 16.6s.
+[2020.02.03-00.37.20:014][ 84]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.03-00.37.20:021][ 84]LogHotReload: New module detected: UE4Editor-FortniteTowerDefense-7104.dll
+[2020.02.03-00.37.20:117][ 85]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.03-00.37.20:191][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.02.03-00.37.20:199][ 85]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.02.03-00.37.20:203][ 85]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.37.20:238][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.02.03-00.37.20:259][ 85]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3022 classes and 722 folders.
+[2020.02.03-00.37.20:269][ 85]Display: HotReload took  0.2s.
+[2020.02.03-00.37.56:246][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
