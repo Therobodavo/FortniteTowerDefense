@@ -13,7 +13,7 @@ ABullet::ABullet()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	//timeCreated = GetWorld()->GetRealTimeSeconds();
+	timeCreated = GetWorld()->GetRealTimeSeconds();
 }
 
 // Called when the game starts or when spawned
@@ -47,10 +47,10 @@ void ABullet::Tick(float DeltaTime)
 
 void ABullet::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	//if (OtherActor->ActorHasTag("Enemy"))
-	//{
-	//	AEnemy1* enemy = Cast<AEnemy1>(OtherActor);
-	//	enemy->Health = 0;
-	//}
+	if (OtherActor->ActorHasTag("Enemy"))
+	{
+		AEnemy1* enemy = Cast<AEnemy1>(OtherActor);
+		enemy->Health = 0;
+	}
 }
 
