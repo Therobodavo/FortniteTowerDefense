@@ -1,4 +1,4 @@
-﻿Log file open, 02/02/20 19:33:37
+﻿Log file open, 02/02/20 19:44:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FortniteTowerDefense
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.116906
+LogStats: Stats thread started at 0.124417
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,586 +163,514 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:152][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.03-00.33.38:152][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.03-00.33.38:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:153][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:155][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:155][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.03-00.33.38:156][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.02.03-00.33.38:157][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.02.03-00.33.38:158][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.02.03-00.33.38:158][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.03-00.33.38:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.03-00.33.38:162][  0]LogHAL: Display: Platform has ~ 16 GB [17086115840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.03-00.33.38:162][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.03-00.33.38:162][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.03-00.33.38:162][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.03-00.33.38:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.03-00.33.38:164][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.02.03-00.33.38:165][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
-[2020.02.03-00.33.38:166][  0]LogInit: Computer: DAVIDSMSILAPTOP
-[2020.02.03-00.33.38:166][  0]LogInit: User: Thero
-[2020.02.03-00.33.38:166][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.02.03-00.33.38:166][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.03-00.33.38:166][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.02.03-00.33.38:166][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.03-00.33.38:166][  0]LogMemory: Process Physical Memory: 105.59 MB used, 105.60 MB peak
-[2020.02.03-00.33.38:166][  0]LogMemory: Process Virtual Memory: 100.73 MB used, 100.73 MB peak
-[2020.02.03-00.33.38:166][  0]LogMemory: Physical Memory: 9164.90 MB used,  7129.69 MB free, 16294.59 MB total
-[2020.02.03-00.33.38:166][  0]LogMemory: Virtual Memory: 5137.50 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2020.02.03-00.33.38:170][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.02.03-00.33.38:194][  0]LogInit: Using OS detected language (en-US).
-[2020.02.03-00.33.38:194][  0]LogInit: Using OS detected locale (en-US).
-[2020.02.03-00.33.38:194][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.03-00.33.38:417][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.03-00.33.38:463][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.03-00.33.38:463][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.03-00.33.38:686][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.03-00.33.38:686][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.02.03-00.33.38:686][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.02.03-00.33.38:686][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.03-00.33.38:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2020.02.03-00.33.38:793][  0]LogD3D11RHI:       3032/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.02.03-00.33.38:804][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.02.03-00.33.38:804][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.02.03-00.33.38:807][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.03-00.33.38:807][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.03-00.33.38:807][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.03-00.33.38:869][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.03-00.33.38:869][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.03-00.33.38:869][  0]LogWindows: EnumDisplayDevices:
-[2020.02.03-00.33.38:869][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.02.03-00.33.38:870][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.02.03-00.33.38:870][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.02.03-00.33.38:870][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.02.03-00.33.38:870][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2020.02.03-00.33.38:870][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.02.03-00.33.38:870][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.02.03-00.33.38:870][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
-[2020.02.03-00.33.38:924][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.02.03-00.33.38:924][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.03-00.33.38:953][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.03-00.33.39:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.02.03-00.33.39:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.02.03-00.33.39:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.02.03-00.33.39:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.02.03-00.33.39:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.02.03-00.33.39:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.02.03-00.33.39:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.02.03-00.33.39:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.02.03-00.33.39:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.02.03-00.33.39:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.02.03-00.33.39:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.02.03-00.33.39:545][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.02.03-00.33.39:554][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.02.03-00.33.39:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.02.03-00.33.39:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.02.03-00.33.39:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.02.03-00.33.39:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.02.03-00.33.39:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.02.03-00.33.39:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.02.03-00.33.39:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.02.03-00.33.39:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.02.03-00.33.39:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.02.03-00.33.39:651][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.03-00.33.39:654][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.02.03-00.33.39:676][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Intermediate/Shaders/WorkingDirectory/8352/).
-[2020.02.03-00.33.39:676][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thero/AppData/Local/Temp/UnrealShaderWorkingDir/64A87D2642BC1999EC3C8AB6501BE6CA/'.
-[2020.02.03-00.33.39:677][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.03-00.33.39:677][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.03-00.33.39:677][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.03-00.33.40:593][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.03-00.33.40:666][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.02.03-00.33.40:666][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.02.03-00.33.40:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.03-00.33.40:666][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.03-00.33.40:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.03-00.33.40:666][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.03-00.33.40:682][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.03-00.33.40:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.03-00.33.40:682][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.03-00.33.40:683][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thero/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.03-00.33.40:683][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.03-00.33.40:683][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.03-00.33.40:725][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.03-00.33.40:730][  0]LogSlate: Using FreeType 2.10.0
-[2020.02.03-00.33.40:731][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.03-00.33.40:806][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
-[2020.02.03-00.33.41:214][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.03-00.33.41:439][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.03-00.33.41:439][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.02.03-00.33.41:439][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.03-00.33.41:439][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.02.03-00.33.41:439][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.02.03-00.33.41:455][  0]LogNetVersion: FortniteTowerDefense 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 511844659)
-[2020.02.03-00.33.42:809][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.054564 seconds
-[2020.02.03-00.33.42:822][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.02.03-00.33.42:822][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.02.03-00.33.42:822][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.03-00.33.43:339][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.03-00.33.43:343][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.03-00.33.43:434][  0]SourceControl: Source control is disabled
-[2020.02.03-00.33.43:434][  0]SourceControl: Source control is disabled
-[2020.02.03-00.33.43:435][  0]SourceControl: Source control is disabled
-[2020.02.03-00.33.43:436][  0]SourceControl: Source control is disabled
-[2020.02.03-00.33.43:437][  0]SourceControl: Source control is disabled
-[2020.02.03-00.33.43:536][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.03-00.33.43:549][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.02.03-00.33.43:549][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.02.03-00.33.43:661][  0]LogOcInput: OculusInput pre-init called
-[2020.02.03-00.33.43:668][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.02.03-00.33.43:668][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.02.03-00.33.43:756][  0]LogEngine: Initializing Engine...
-[2020.02.03-00.33.43:757][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.03-00.33.43:759][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.02.03-00.33.44:214][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.03-00.33.44:221][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.02.03-00.33.44:251][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.02.03-00.33.44:252][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.02.03-00.33.44:252][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.02.03-00.33.44:252][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: Channel Order:
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.02.03-00.33.44:284][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.02.03-00.33.44:309][  0]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
-[2020.02.03-00.33.44:316][  0]LogInit: FAudioDevice initialized.
-[2020.02.03-00.33.44:316][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.03-00.33.44:392][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.02.03-00.33.44:397][  0]LogInit: Texture streaming: Enabled
-[2020.02.03-00.33.44:406][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.03-00.33.44:406][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.02.03-00.33.44:409][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.02.03-00.33.44:471][  0]LogInit: Transaction tracking system initialized
-[2020.02.03-00.33.44:482][  0]BlueprintLog: New page: Editor Load
-[2020.02.03-00.33.44:512][  0]LocalizationService: Localization service is disabled
-[2020.02.03-00.33.44:930][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/' took 0.00s
-[2020.02.03-00.33.44:930][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.03-00.33.44:930][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.03-00.33.45:680][  0]SourceControl: Source control is disabled
-[2020.02.03-00.33.45:680][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.03-00.33.45:681][  0]LightingResults: New page: Lighting Build
-[2020.02.03-00.33.45:682][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.02.03-00.33.45:682][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.02.03-00.33.45:682][  0]MapCheck: New page: Map Check
-[2020.02.03-00.33.45:683][  0]LightingResults: New page: Lighting Build
-[2020.02.03-00.33.45:716][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
-[2020.02.03-00.33.45:823][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2020.02.03-00.33.45:829][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.03-00.33.45:866][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
-[2020.02.03-00.33.45:866][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.03-00.33.45:866][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
-[2020.02.03-00.33.45:866][  0]LogFileHelpers: Loading map 'Template_Default' took 0.186
-[2020.02.03-00.33.46:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.03-00.33.46:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.03-00.33.46:084][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.03-00.33.46:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.03-00.33.46:099][  0]LogCollectionManager: Loaded 0 collections in 0.001014 seconds
-[2020.02.03-00.33.46:116][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Collections/' took 0.00s
-[2020.02.03-00.33.46:116][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Developers/Thero/Collections/' took 0.00s
-[2020.02.03-00.33.46:116][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Collections/' took 0.00s
-[2020.02.03-00.33.46:116][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 3018 classes and 719 folders.
-[2020.02.03-00.33.46:119][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.02.03-00.33.46:181][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.03-00.33.46:188][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 2 classes and 3 folders.
-[2020.02.03-00.33.46:254][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.03-00.33.46:259][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.03-00.33.46:267][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.03-00.33.46:363][  0]LogRenderer: Reallocating scene render targets to support 744x364 Format 10 NumSamples 1 (Frame:1).
-[2020.02.03-00.33.46:483][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.03-00.33.46:483][  0]LogLoad: (Engine Initialization) Total time: 9.57 seconds
-[2020.02.03-00.33.46:483][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.03-00.33.46:552][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.03-00.33.46:578][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.03-00.33.46:601][  1]LogAssetRegistry: Asset discovery search completed in 5.7961 seconds
-[2020.02.03-00.33.46:609][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
-[2020.02.03-00.33.50:741][227]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.03-00.33.50:792][227]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
-[2020.02.03-00.33.50:792][227]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
-[2020.02.03-00.33.50:794][227]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
-[2020.02.03-00.33.50:794][227]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
-[2020.02.03-00.33.50:797][227]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
-[2020.02.03-00.33.50:797][227]LoadErrors: Failed to load /Game/Maps/Level1_BuiltData.Level1_BuiltData Referenced by PersistentLevel
-[2020.02.03-00.33.50:797][227]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
-[2020.02.03-00.33.50:816][227]LogAIModule: Creating AISystem for world Level1
-[2020.02.03-00.33.50:830][227]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
-[2020.02.03-00.33.50:860][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
-[2020.02.03-00.33.50:865][227]Cmd: MAP LOAD FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.03-00.33.50:866][227]LightingResults: New page: Lighting Build
-[2020.02.03-00.33.50:866][227]LoadErrors: New page: Loading map: Level1.umap
-[2020.02.03-00.33.50:866][227]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
-[2020.02.03-00.33.50:867][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.02.03-00.33.50:867][227]MapCheck: New page: Map Check
-[2020.02.03-00.33.50:867][227]LightingResults: New page: Lighting Build
-[2020.02.03-00.33.50:895][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
-[2020.02.03-00.33.50:909][227]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.03-00.33.50:939][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
-[2020.02.03-00.33.50:973][227]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.03-00.33.50:975][227]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.493ms to complete.
-[2020.02.03-00.33.50:975][227]LogFileHelpers: Loading map 'Level1' took 0.110
-[2020.02.03-00.33.54:986][457]Candidate modules for hot reload:
-[2020.02.03-00.33.54:986][457]  FortniteTowerDefense
-[2020.02.03-00.33.54:987][457]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,365 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
-[2020.02.03-00.33.54:996][457]Warning: Starting HotReload took  0.0s.
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:34:22 PM
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Creating makefile for FortniteTowerDefenseEditor (game project files are newer)
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 9.1008773 seconds
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Building FortniteTowerDefenseEditor...
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.02.03-00.34.22:049][985]CompilerResultsLog: Building 8 actions with 8 processes...
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   [1/8] FortniteTowerDefense.init.gen.cpp
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   [2/8] Enemy1.gen.cpp
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   [3/8] Path.gen.cpp
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   [4/8] Path.cpp
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   [5/8] Enemy1.cpp
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:   [6/8] UE4Editor-FortniteTowerDefense-0365.lib
-[2020.02.03-00.34.22:049][985]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0365.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0365.exp
-[2020.02.03-00.34.22:050][985]CompilerResultsLog:   [7/8] UE4Editor-FortniteTowerDefense-0365.dll
-[2020.02.03-00.34.22:050][985]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0365.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0365.suppressed.exp
-[2020.02.03-00.34.22:050][985]CompilerResultsLog:   [8/8] FortniteTowerDefenseEditor.target
-[2020.02.03-00.34.22:050][985]CompilerResultsLog: Total time in Parallel executor: 14.47 seconds
-[2020.02.03-00.34.22:050][985]CompilerResultsLog: Total execution time: 26.70 seconds
-[2020.02.03-00.34.22:050][985]LogMainFrame: MainFrame: Module compiling took 27.074 seconds
-[2020.02.03-00.34.22:079][985]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2020.02.03-00.34.22:098][985]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3020 classes and 722 folders.
-[2020.02.03-00.34.22:098][985]Display: HotReload took 27.1s.
-[2020.02.03-00.36.14:316][955]LogSlate: WidgetSwitcher ('None') active index changed to -1
-[2020.02.03-00.36.14:316][955]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.02.03-00.36.14:368][955]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.02.03-00.36.16:644][ 73]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.02.03-00.36.24:728][539]Candidate modules for hot reload:
-[2020.02.03-00.36.24:728][539]  FortniteTowerDefense
-[2020.02.03-00.36.24:729][539]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,2092 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
-[2020.02.03-00.36.42:081][539]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:36:42 PM
-[2020.02.03-00.36.42:081][539]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
-[2020.02.03-00.36.42:081][539]CompilerResultsLog: Invalidating makefile for FortniteTowerDefenseEditor (source file added)
-[2020.02.03-00.36.42:081][539]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
-[2020.02.03-00.36.42:081][539]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.03-00.36.42:081][539]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 11.1983782 seconds
-[2020.02.03-00.36.42:081][539]CompilerResultsLog: Building FortniteTowerDefenseEditor...
-[2020.02.03-00.36.42:082][539]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.02.03-00.36.42:082][539]CompilerResultsLog: Building 6 actions with 8 processes...
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [1/6] ShothunTower.cpp
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [2/6] FortniteTowerDefense.init.gen.cpp
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [3/6] ShothunTower.gen.cpp
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [4/6] UE4Editor-FortniteTowerDefense-2092.lib
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.exp
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [5/6] UE4Editor-FortniteTowerDefense-2092.dll
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2092.suppressed.exp
-[2020.02.03-00.36.42:082][539]CompilerResultsLog:   [6/6] FortniteTowerDefenseEditor.target
-[2020.02.03-00.36.42:082][539]CompilerResultsLog: Total time in Parallel executor: 2.34 seconds
-[2020.02.03-00.36.42:082][539]CompilerResultsLog: Total execution time: 17.20 seconds
-[2020.02.03-00.36.42:082][539]LogMainFrame: MainFrame: Module compiling took 17.363 seconds
-[2020.02.03-00.36.42:125][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2020.02.03-00.36.42:155][539]LogClass: Could not find existing class ShothunTower in package /Script/FortniteTowerDefense for HotReload, assuming new class
-[2020.02.03-00.36.42:160][539]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0005 seconds. Added 4 classes and 2 folders.
-[2020.02.03-00.36.42:165][539]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2020.02.03-00.36.42:260][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
-[2020.02.03-00.36.42:284][539]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 3021 classes and 722 folders.
-[2020.02.03-00.36.42:284][539]Display: HotReload took 17.6s.
-[2020.02.03-00.36.42:292][539]Warning: HotReload operation took 17.6s.
-[2020.02.03-00.36.42:960][539]LogSlate: Window 'Add C++ Class' being destroyed
-[2020.02.03-00.36.42:976][539]LogHotReload: New module detected: UE4Editor-FortniteTowerDefense-2092.dll
-[2020.02.03-00.36.43:093][540]LogHotReload: Starting Hot-Reload from IDE
-[2020.02.03-00.36.43:155][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
-[2020.02.03-00.36.43:163][540]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0007 seconds. Added 4 classes and 2 folders.
-[2020.02.03-00.36.43:169][540]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.02.03-00.36.43:205][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2020.02.03-00.36.43:232][540]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 3021 classes and 722 folders.
-[2020.02.03-00.36.43:243][540]Display: HotReload took  0.1s.
-[2020.02.03-00.36.55:470][675]LogSlate: WidgetSwitcher ('None') active index changed to -1
-[2020.02.03-00.36.55:471][675]LogSlate: WidgetSwitcher ('None') active index changed to 0
-[2020.02.03-00.36.58:108][814]LogSlate: WidgetSwitcher ('None') active index changed to 1
-[2020.02.03-00.37.02:886][ 84]Candidate modules for hot reload:
-[2020.02.03-00.37.02:886][ 84]  FortniteTowerDefense
-[2020.02.03-00.37.02:886][ 84]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,7104 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:37:19 PM
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Invalidating makefile for FortniteTowerDefenseEditor (source file added)
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 10.3526592 seconds
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Building FortniteTowerDefenseEditor...
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Building 6 actions with 8 processes...
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [1/6] Bullet.cpp
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [2/6] FortniteTowerDefense.init.gen.cpp
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [3/6] Bullet.gen.cpp
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [4/6] UE4Editor-FortniteTowerDefense-7104.lib
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.exp
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [5/6] UE4Editor-FortniteTowerDefense-7104.dll
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7104.suppressed.exp
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog:   [6/6] FortniteTowerDefenseEditor.target
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Total time in Parallel executor: 2.40 seconds
-[2020.02.03-00.37.19:232][ 84]CompilerResultsLog: Total execution time: 16.20 seconds
-[2020.02.03-00.37.19:232][ 84]LogMainFrame: MainFrame: Module compiling took 16.354 seconds
-[2020.02.03-00.37.19:270][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
-[2020.02.03-00.37.19:301][ 84]LogClass: Could not find existing class Bullet in package /Script/FortniteTowerDefense for HotReload, assuming new class
-[2020.02.03-00.37.19:316][ 84]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0005 seconds. Added 5 classes and 2 folders.
-[2020.02.03-00.37.19:321][ 84]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2020.02.03-00.37.19:416][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2020.02.03-00.37.19:438][ 84]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 3022 classes and 722 folders.
-[2020.02.03-00.37.19:438][ 84]Display: HotReload took 16.6s.
-[2020.02.03-00.37.19:440][ 84]Warning: HotReload operation took 16.6s.
-[2020.02.03-00.37.20:014][ 84]LogSlate: Window 'Add C++ Class' being destroyed
-[2020.02.03-00.37.20:021][ 84]LogHotReload: New module detected: UE4Editor-FortniteTowerDefense-7104.dll
-[2020.02.03-00.37.20:117][ 85]LogHotReload: Starting Hot-Reload from IDE
-[2020.02.03-00.37.20:191][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.02.03-00.37.20:199][ 85]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2020.02.03-00.37.20:203][ 85]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2020.02.03-00.37.20:238][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2020.02.03-00.37.20:259][ 85]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3022 classes and 722 folders.
-[2020.02.03-00.37.20:269][ 85]Display: HotReload took  0.2s.
-[2020.02.03-00.37.56:246][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.02.03-00.44.08:174][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.03-00.44.08:174][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.03-00.44.08:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:174][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.03-00.44.08:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.03-00.44.08:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:175][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:178][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:178][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.03-00.44.08:178][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.03-00.44.08:178][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:178][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.03-00.44.08:178][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:178][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.03-00.44.08:178][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.03-00.44.08:178][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.03-00.44.08:179][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.03-00.44.08:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.03-00.44.08:180][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.03-00.44.08:180][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.03-00.44.08:182][  0]LogHAL: Display: Platform has ~ 16 GB [17086115840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.03-00.44.08:183][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.03-00.44.08:183][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.03-00.44.08:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Scalability.ini]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.03-00.44.08:184][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Config/Windows/Engine.ini]
+[2020.02.03-00.44.08:184][  0]LogInit: Computer: DAVIDSMSILAPTOP
+[2020.02.03-00.44.08:184][  0]LogInit: User: Thero
+[2020.02.03-00.44.08:184][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.03-00.44.08:184][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.03-00.44.08:185][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.03-00.44.08:185][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.03-00.44.08:185][  0]LogMemory: Process Physical Memory: 105.37 MB used, 105.38 MB peak
+[2020.02.03-00.44.08:185][  0]LogMemory: Process Virtual Memory: 100.74 MB used, 100.74 MB peak
+[2020.02.03-00.44.08:185][  0]LogMemory: Physical Memory: 9109.02 MB used,  7185.57 MB free, 16294.59 MB total
+[2020.02.03-00.44.08:185][  0]LogMemory: Virtual Memory: 5137.50 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.02.03-00.44.08:188][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.03-00.44.08:209][  0]LogInit: Using OS detected language (en-US).
+[2020.02.03-00.44.08:209][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.03-00.44.08:210][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.03-00.44.08:428][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.03-00.44.08:479][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.03-00.44.08:479][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.03-00.44.08:693][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.03-00.44.08:693][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.02.03-00.44.08:693][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.02.03-00.44.08:693][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.03-00.44.08:774][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2020.02.03-00.44.08:775][  0]LogD3D11RHI:       3032/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.03-00.44.08:786][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.02.03-00.44.08:787][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.03-00.44.08:789][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.03-00.44.08:789][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.03-00.44.08:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.03-00.44.08:853][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.03-00.44.08:854][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.03-00.44.08:854][  0]LogWindows: EnumDisplayDevices:
+[2020.02.03-00.44.08:854][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.02.03-00.44.08:854][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.02.03-00.44.08:854][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.02.03-00.44.08:855][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.02.03-00.44.08:855][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2020.02.03-00.44.08:855][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.02.03-00.44.08:855][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.02.03-00.44.08:855][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2020.02.03-00.44.08:932][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.02.03-00.44.08:933][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.03-00.44.08:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.03-00.44.09:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.02.03-00.44.09:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.02.03-00.44.09:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.02.03-00.44.09:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.02.03-00.44.09:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.02.03-00.44.09:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.02.03-00.44.09:435][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.02.03-00.44.09:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.02.03-00.44.09:458][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.02.03-00.44.09:458][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.02.03-00.44.09:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.03-00.44.09:480][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.02.03-00.44.09:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.02.03-00.44.09:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.02.03-00.44.09:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.02.03-00.44.09:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.02.03-00.44.09:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.02.03-00.44.09:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.02.03-00.44.09:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.02.03-00.44.09:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.02.03-00.44.09:572][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.03-00.44.09:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.02.03-00.44.09:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.02.03-00.44.09:601][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.02.03-00.44.09:601][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.03-00.44.09:604][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.03-00.44.09:625][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Intermediate/Shaders/WorkingDirectory/18284/).
+[2020.02.03-00.44.09:626][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thero/AppData/Local/Temp/UnrealShaderWorkingDir/532036014B4FF10C8A909594F169D50E/'.
+[2020.02.03-00.44.09:626][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.03-00.44.09:626][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.03-00.44.09:626][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.03-00.44.10:591][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.03-00.44.10:654][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.03-00.44.10:654][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.02.03-00.44.10:654][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.03-00.44.10:654][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.03-00.44.10:654][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.03-00.44.10:654][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.03-00.44.10:668][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.03-00.44.10:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.03-00.44.10:668][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.03-00.44.10:669][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thero/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.03-00.44.10:669][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.03-00.44.10:669][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.03-00.44.10:707][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.03-00.44.10:711][  0]LogSlate: Using FreeType 2.10.0
+[2020.02.03-00.44.10:711][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.03-00.44.10:775][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2020.02.03-00.44.11:185][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.03-00.44.11:417][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.03-00.44.11:417][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.03-00.44.11:417][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.03-00.44.11:417][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.03-00.44.11:417][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.03-00.44.11:433][  0]LogNetVersion: FortniteTowerDefense 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 511844659)
+[2020.02.03-00.44.12:745][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.056598 seconds
+[2020.02.03-00.44.12:753][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.02.03-00.44.12:753][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.02.03-00.44.12:753][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.03-00.44.13:286][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.03-00.44.13:290][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.03-00.44.13:394][  0]SourceControl: Source control is disabled
+[2020.02.03-00.44.13:394][  0]SourceControl: Source control is disabled
+[2020.02.03-00.44.13:396][  0]SourceControl: Source control is disabled
+[2020.02.03-00.44.13:396][  0]SourceControl: Source control is disabled
+[2020.02.03-00.44.13:397][  0]SourceControl: Source control is disabled
+[2020.02.03-00.44.13:493][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.03-00.44.13:503][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.03-00.44.13:503][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.03-00.44.13:618][  0]LogOcInput: OculusInput pre-init called
+[2020.02.03-00.44.13:627][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.03-00.44.13:627][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.03-00.44.13:719][  0]LogEngine: Initializing Engine...
+[2020.02.03-00.44.13:720][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.03-00.44.13:722][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.03-00.44.14:216][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.03-00.44.14:223][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-00.44.14:250][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-00.44.14:250][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-00.44.14:250][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: Channel Order:
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-00.44.14:287][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-00.44.14:312][  0]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-00.44.14:317][  0]LogInit: FAudioDevice initialized.
+[2020.02.03-00.44.14:317][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.03-00.44.14:382][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.03-00.44.14:387][  0]LogInit: Texture streaming: Enabled
+[2020.02.03-00.44.14:398][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.03-00.44.14:398][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.03-00.44.14:400][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.03-00.44.14:460][  0]LogInit: Transaction tracking system initialized
+[2020.02.03-00.44.14:469][  0]BlueprintLog: New page: Editor Load
+[2020.02.03-00.44.14:499][  0]LocalizationService: Localization service is disabled
+[2020.02.03-00.44.14:858][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/' took 0.00s
+[2020.02.03-00.44.14:858][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.03-00.44.14:858][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.03-00.44.15:622][  0]SourceControl: Source control is disabled
+[2020.02.03-00.44.15:622][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.03-00.44.15:623][  0]LightingResults: New page: Lighting Build
+[2020.02.03-00.44.15:624][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-00.44.15:624][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-00.44.15:624][  0]MapCheck: New page: Map Check
+[2020.02.03-00.44.15:624][  0]LightingResults: New page: Lighting Build
+[2020.02.03-00.44.15:659][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2020.02.03-00.44.15:775][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.02.03-00.44.15:781][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.03-00.44.15:816][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.02.03-00.44.15:816][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.03-00.44.15:817][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.172ms to complete.
+[2020.02.03-00.44.15:817][  0]LogFileHelpers: Loading map 'Template_Default' took 0.194
+[2020.02.03-00.44.15:984][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-00.44.15:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-00.44.16:005][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-00.44.16:017][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-00.44.16:022][  0]LogCollectionManager: Loaded 0 collections in 0.001091 seconds
+[2020.02.03-00.44.16:039][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Collections/' took 0.00s
+[2020.02.03-00.44.16:039][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Developers/Thero/Collections/' took 0.00s
+[2020.02.03-00.44.16:039][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Collections/' took 0.00s
+[2020.02.03-00.44.16:039][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3019 classes and 719 folders.
+[2020.02.03-00.44.16:043][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.03-00.44.16:103][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.02.03-00.44.16:114][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.02.03-00.44.16:186][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.03-00.44.16:193][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.03-00.44.16:201][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.03-00.44.16:299][  0]LogRenderer: Reallocating scene render targets to support 744x364 Format 10 NumSamples 1 (Frame:1).
+[2020.02.03-00.44.16:357][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.03-00.44.16:424][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.02.03-00.44.16:424][  0]LogLoad: (Engine Initialization) Total time: 9.60 seconds
+[2020.02.03-00.44.16:424][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.03-00.44.16:483][  0]LogAssetRegistry: Asset discovery search completed in 5.7103 seconds
+[2020.02.03-00.44.16:488][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2020.02.03-00.44.16:488][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.03-00.44.20:340][223]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.03-00.44.20:382][223]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
+[2020.02.03-00.44.20:382][223]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
+[2020.02.03-00.44.20:385][223]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
+[2020.02.03-00.44.20:385][223]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
+[2020.02.03-00.44.20:388][223]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
+[2020.02.03-00.44.20:388][223]LoadErrors: Failed to load /Game/Maps/Level1_BuiltData.Level1_BuiltData Referenced by PersistentLevel
+[2020.02.03-00.44.20:388][223]LogLinker: Warning: While loading '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap' failed to load '/Game/Maps/Level1_BuiltData': Can't find file.
+[2020.02.03-00.44.20:404][223]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-00.44.20:413][223]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
+[2020.02.03-00.44.20:443][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.02.03-00.44.20:446][223]Cmd: MAP LOAD FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.03-00.44.20:446][223]LightingResults: New page: Lighting Build
+[2020.02.03-00.44.20:447][223]LoadErrors: New page: Loading map: Level1.umap
+[2020.02.03-00.44.20:448][223]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-00.44.20:448][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-00.44.20:448][223]MapCheck: New page: Map Check
+[2020.02.03-00.44.20:448][223]LightingResults: New page: Lighting Build
+[2020.02.03-00.44.20:478][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.02.03-00.44.20:495][223]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.03-00.44.20:527][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.02.03-00.44.20:564][223]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.03-00.44.20:565][223]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.554ms to complete.
+[2020.02.03-00.44.20:565][223]LogFileHelpers: Loading map 'Level1' took 0.120
+[2020.02.03-00.44.24:419][440]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-00.44.24:419][440]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.02.03-00.44.24:480][440]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.03-00.44.26:578][551]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-00.44.33:933][981]Candidate modules for hot reload:
+[2020.02.03-00.44.33:933][981]  FortniteTowerDefense
+[2020.02.03-00.44.33:933][981]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,7540 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 2:44:48 PM
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Invalidating makefile for FortniteTowerDefenseEditor (source file added)
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 9.059648 seconds
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   [1/6] ShotgunTower.cpp
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   [2/6] FortniteTowerDefense.init.gen.cpp
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   [3/6] ShotgunTower.gen.cpp
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   [4/6] UE4Editor-FortniteTowerDefense-7540.lib
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7540.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7540.exp
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   [5/6] UE4Editor-FortniteTowerDefense-7540.dll
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7540.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-7540.suppressed.exp
+[2020.02.03-00.44.48:702][981]CompilerResultsLog:   [6/6] FortniteTowerDefenseEditor.target
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Total time in Parallel executor: 2.12 seconds
+[2020.02.03-00.44.48:702][981]CompilerResultsLog: Total execution time: 14.62 seconds
+[2020.02.03-00.44.48:702][981]LogMainFrame: MainFrame: Module compiling took 14.780 seconds
+[2020.02.03-00.44.48:731][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.02.03-00.44.48:762][981]LogClass: Could not find existing class ShotgunTower in package /Script/FortniteTowerDefense for HotReload, assuming new class
+[2020.02.03-00.44.48:766][981]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2020.02.03-00.44.48:769][981]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.44.48:864][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.02.03-00.44.48:883][981]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3022 classes and 722 folders.
+[2020.02.03-00.44.48:883][981]Display: HotReload took 15.0s.
+[2020.02.03-00.44.48:887][981]Warning: HotReload operation took 15.0s.
+[2020.02.03-00.44.49:460][981]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.03-00.44.49:467][981]LogHotReload: New module detected: UE4Editor-FortniteTowerDefense-7540.dll
+[2020.02.03-00.44.49:549][982]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.03-00.44.49:622][982]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.02.03-00.44.49:628][982]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.02.03-00.44.49:632][982]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.02.03-00.44.49:660][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.02.03-00.44.49:681][982]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3022 classes and 722 folders.
+[2020.02.03-00.44.49:691][982]Display: HotReload took  0.1s.
+[2020.02.03-00.44.57:640][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms

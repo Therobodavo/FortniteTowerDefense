@@ -367,10 +367,12 @@
     <ClCompile Include="..\..\Source\FortniteTowerDefense\Bullet.cpp" />
     <ClCompile Include="..\..\Source\FortniteTowerDefense\Enemy1.cpp" />
     <ClCompile Include="..\..\Source\FortniteTowerDefense\Path.cpp" />
+    <ClCompile Include="..\..\Source\FortniteTowerDefense\ShotgunTower.cpp" />
     <ClCompile Include="..\..\Source\FortniteTowerDefense\ShothunTower.cpp" />
     <ClInclude Include="..\..\Source\FortniteTowerDefense\Bullet.h" />
     <ClInclude Include="..\..\Source\FortniteTowerDefense\Enemy1.h" />
     <ClInclude Include="..\..\Source\FortniteTowerDefense\Path.h" />
+    <ClInclude Include="..\..\Source\FortniteTowerDefense\ShotgunTower.h" />
     <ClInclude Include="..\..\Source\FortniteTowerDefense\ShothunTower.h" />
     <None Include="..\..\FortniteTowerDefense.uproject" />
     <None Include="..\..\Source\FortniteTowerDefense.Target.cs" />
