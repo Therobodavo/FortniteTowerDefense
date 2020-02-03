@@ -6,6 +6,8 @@
 #include "EngineUtils.h"
 #include <FortniteTowerDefense\Enemy1.h>
 
+TArray<USceneComponent*> allComponents;
+
 // Sets default values
 ABullet::ABullet()
 {
@@ -18,7 +20,7 @@ ABullet::ABullet()
 void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
-	//GetRootComponent()->GetChildrenComponents(true, allComponents);
+	GetRootComponent()->GetChildrenComponents(true, allComponents);
 	//for (USceneComponent* part : allComponents)
 	//{
 	//	if (part->GetName() == "Collider")
