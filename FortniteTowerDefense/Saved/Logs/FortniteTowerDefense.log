@@ -1070,3 +1070,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Material /Game/Models/polySurface78Mat.polySurface78Mat
 [2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Texture2D /Game/Models/TacticalShotgun_BaseColor.TacticalShotgun_BaseColor
 [2020.02.03-01.24.53:287][636]LogContentValidation: Display: Validating Material /Game/Models/TacticalShotgun_BaseColor_Mat.TacticalShotgun_BaseColor_Mat
+[2020.02.03-01.25.32:228][213]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-01.25.43:936][822]LogSlate: Window 'ProjectLauncher' being destroyed
+[2020.02.03-01.25.43:942][822]LogSlate: Window 'ProjectLauncher' being destroyed
+[2020.02.03-01.25.57:132][528]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.03-01.25.58:976][629]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.03-01.26.06:914][ 88]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.03-01.26.06:987][ 88]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.03-01.26.15:028][452]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.03-01.26.15:031][452]LogSlate: Window 'Tutorials' being destroyed
+[2020.02.03-01.26.30:578][313]LogSlate: Window 'BP_Bullet' being destroyed
+[2020.02.03-01.26.30:611][313]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.26.30:611][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.26.31:784][371]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ShotgunTower.BP_ShotgunTower
+[2020.02.03-01.26.39:926][792]LogSlate: Window 'BP_ShotgunTower' being destroyed
+[2020.02.03-01.26.39:943][792]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.26.39:943][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.26.43:288][976]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2020.02.03-01.26.45:319][976]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.03-01.26.45:523][976]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.02.03-01.26.45:569][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.02.03-01.26.45:605][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.02.03-01.26.52:594][379]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.03-01.26.52:594][379]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.03-01.26.58:419][720]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-01.26.58:850][720]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.03-01.27.36:482][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bullet" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset" SILENT=true
+[2020.02.03-01.27.36:508][902]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Bullet9E62D66A41BA5DFCBF4D9A9560D098DF.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset'
+[2020.02.03-01.27.36:528][902]AssetCheck: New page: Asset Save: BP_Bullet
+[2020.02.03-01.27.36:528][902]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-01.27.57:430][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bullet" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset" SILENT=true
+[2020.02.03-01.27.57:474][ 90]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Bullet757DF643402F237D66D095A4C92A830E.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset'
+[2020.02.03-01.27.57:496][ 90]AssetCheck: New page: Asset Save: BP_Bullet
+[2020.02.03-01.27.57:496][ 90]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-01.27.58:706][161]LogSlate: Window 'BP_Bullet' being destroyed
+[2020.02.03-01.27.58:737][161]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.27.58:737][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-01.28.02:327][370]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-01.28.05:819][532]LogSlate: Window 'BP_Enemy1' being destroyed
+[2020.02.03-01.28.05:833][532]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-01.28.05:833][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
