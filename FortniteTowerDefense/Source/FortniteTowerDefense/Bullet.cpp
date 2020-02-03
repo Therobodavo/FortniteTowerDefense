@@ -21,17 +21,17 @@ void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
 	GetRootComponent()->GetChildrenComponents(true, allComponents);
-	//for (USceneComponent* part : allComponents)
-	//{
-	//	if (part->GetName() == "Collider")
-	//	{
-	//		collider = Cast<UStaticMeshComponent>(part);
-	//		if (collider != NULL)
-	//		{
-	//			collider->OnComponentBeginOverlap.AddDynamic(this, &ABullet::OnOverlap);
-	//		}
-	//	}
-	//}
+	for (USceneComponent* part : allComponents)
+	{
+		//if (part->GetName() == "Collider")
+		//{
+			//collider = Cast<UStaticMeshComponent>(part);
+			//if (collider != NULL)
+			//{
+			//collider->OnComponentBeginOverlap.AddDynamic(this, &ABullet::OnOverlap);
+			//}
+		//}
+	}
 }
 
 // Called every frame
