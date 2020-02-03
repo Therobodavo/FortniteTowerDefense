@@ -909,3 +909,795 @@ Script Stack (0 frames):
 [2020.02.03-02.20.31:818][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.02.03-02.20.31:870][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
 [2020.02.03-02.20.31:893][ 86]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.02.03-02.20.49:562][423]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.02.03-02.20.49:630][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-02.20.49:669][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.02.03-02.20.49:716][423]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level15CB9F1404E0729BF94510588EEE1DC01.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap'
+[2020.02.03-02.20.49:764][423]LogFileHelpers: Saving map 'Level1' took 0.137
+[2020.02.03-02.20.49:784][423]AssetCheck: New page: Asset Save: Level1
+[2020.02.03-02.20.49:784][423]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2020.02.03-02.20.55:929][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.02.03-02.30.40:276][ 50]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Thero/Desktop/HELP/FBX/DanceMoves.FBX)
+[2020.02.03-02.30.40:373][ 50]LogFbx: Loading FBX Scene from C:/Users/Thero/Desktop/HELP/FBX/DanceMoves.FBX
+[2020.02.03-02.30.40:658][ 50]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.03-02.30.42:885][ 50]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.02.03-02.30.43:044][ 50]LogFbx: Valid bind pose for Pose (BIND_POSES) - SK_M_MED_Astronaut_01
+[2020.02.03-02.30.43:210][ 50]LogMaterial: Display: Material /Game/Models/M_MED_Astronaut.M_MED_Astronaut needed to have new flag set bUsedWithSkeletalMesh !
+[2020.02.03-02.30.43:219][ 50]LogMaterial: Display: Missing cached shader map for material M_MED_Astronaut, compiling. 
+[2020.02.03-02.30.43:362][ 50]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2020.02.03-02.30.43:362][ 50]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2020.02.03-02.30.43:362][ 50]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.02.03-02.30.43:362][ 50]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2020.02.03-02.30.43:363][ 50]LogFbxMaterialImport: Warning: Unable to find Texture file M_MED_Astronaut
+[2020.02.03-02.30.43:374][ 50]LogMaterial: Display: Missing cached shader map for material M_MED_Astronaut, compiling. 
+[2020.02.03-02.30.43:509][ 50]LogFbx: Warning: Bones digested - 92  Depth of hierarchy - 15
+[2020.02.03-02.30.44:679][ 50]LogSkeletalMesh: Section 0: 7353 vertices, 73 active bones
+[2020.02.03-02.30.44:681][ 50]LogSkeletalMesh: Section 0: Material=0, 12670 triangles
+[2020.02.03-02.30.44:776][ 50]LogSkeletalMesh: Building Skeletal Mesh DanceMoves...
+[2020.02.03-02.30.45:207][ 50]LogSkeletalMesh: Section 0: 7353 vertices, 73 active bones
+[2020.02.03-02.30.45:208][ 50]LogSkeletalMesh: Section 0: Material=0, 12670 triangles
+[2020.02.03-02.30.45:396][ 50]LogSkeletalMesh: Built Skeletal Mesh [0.61s] /Game/Models/DanceMoves.DanceMoves
+[2020.02.03-02.30.45:429][ 50]LogLinker: Failed to load '/Game/Models/DanceMoves_Skeleton': Can't find file.
+[2020.02.03-02.30.45:429][ 50]LogLinker: Failed to load '/Game/Models/DanceMoves_Skeleton': Can't find file.
+[2020.02.03-02.30.45:489][ 50]LogLinker: Failed to load '/Game/Models/DanceMoves_PhysicsAsset': Can't find file.
+[2020.02.03-02.30.45:489][ 50]LogLinker: Failed to load '/Game/Models/DanceMoves_PhysicsAsset': Can't find file.
+[2020.02.03-02.30.45:749][ 50]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.30.45:750][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.30.45:999][ 50]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.03-02.30.48:406][137]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2020.02.03-02.30.49:423][198]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.02.03-02.30.49:523][204]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.02.03-02.30.50:229][243]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2020.02.03-02.30.52:226][362]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.02.03-02.30.52:547][381]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2020.02.03-02.30.53:680][449]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.02.03-02.30.53:759][454]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.02.03-02.30.54:094][474]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.02.03-02.30.54:110][475]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.02.03-02.31.00:759][868]LogSlate: Window 'Message Log' being destroyed
+[2020.02.03-02.31.00:766][868]LogSlate: Window 'Message Log' being destroyed
+[2020.02.03-02.31.10:050][386]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.31.10:073][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.03-02.31.10:073][386]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:31:10 PM)
+[2020.02.03-02.31.10:074][386]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.31.10:079][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005360s)
+[2020.02.03-02.31.10:081][386]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.31.10:157][386]LogPlayLevel: PIE: World Init took: (0.077566s)
+[2020.02.03-02.31.10:157][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.083119s)
+[2020.02.03-02.31.10:237][386]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.31.10:239][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.31.10:239][386]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.31.10:239][386]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.31.10:256][386]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.31.10:270][386]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.31.10:272][386]LogInit: FAudioDevice initialized.
+[2020.02.03-02.31.10:283][386]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.31.10:286][386]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.31.10
+[2020.02.03-02.31.10:286][386]LogWorld: Bringing up level for play took: 0.002073
+[2020.02.03-02.31.10:286][386]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.02.03-02.31.10:289][386]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.194
+[2020.02.03-02.31.15:969][720]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.31.15:973][720]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.02.03-02.31.15:988][720]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.02.03-02.31.15:988][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.31.15:988][720]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.31.15:988][720]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.31.15:988][720]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.31.15:989][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.31.16:002][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.31.16:006][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.31.16:042][720]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.31.16:047][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.31.16:064][720]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.02.03-02.31.16:089][721]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.02.03-02.31.17:181][783]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (DanceMoves)
+[2020.02.03-02.32.07:540][719]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Models/DanceMoves.DanceMoves
+[2020.02.03-02.32.07:767][719]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.02.03-02.32.08:539][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.02.03-02.32.08:608][719]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.02.03-02.32.08:973][719]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.02.03-02.32.10:242][720]LogRenderer: Reallocating scene render targets to support 804x548 Format 10 NumSamples 1 (Frame:1).
+[2020.02.03-02.32.28:537][779]LogSlate: Window 'DanceMoves' being destroyed
+[2020.02.03-02.32.28:545][779]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.32.28:545][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.32.30:959][906]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/DanceMoves_Skeleton.DanceMoves_Skeleton
+[2020.02.03-02.32.30:966][906]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.02.03-02.32.31:095][906]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.02.03-02.32.35:436][131]LogSlate: Window 'DanceMoves_Skeleton' being destroyed
+[2020.02.03-02.32.35:443][131]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.32.35:443][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.32.47:169][809]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (DanceMoves)
+[2020.02.03-02.32.48:274][873]Cmd: DELETE
+[2020.02.03-02.32.48:274][873]Cmd: ACTOR DELETE
+[2020.02.03-02.32.48:658][873]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2020.02.03-02.32.48:744][873]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.02.03-02.32.48:758][873]LogEditorActor: Deleted 1 Actors (0.153 secs)
+[2020.02.03-02.33.15:625][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2020.02.03-02.33.15:723][ 73]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level1_Auto1A1BD4D2E455D82318833538A0AB64688.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Maps/Level1_Auto1.umap'
+[2020.02.03-02.33.15:936][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.415
+[2020.02.03-02.33.15:937][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.415
+[2020.02.03-02.33.15:938][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/DanceMoves] ([1] browsable assets)...
+[2020.02.03-02.33.15:974][ 73]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Models/DanceMoves.DanceMoves]
+[2020.02.03-02.33.15:974][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves]
+[2020.02.03-02.33.16:073][ 73]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_Auto17C0AC4444370E1B5566D25A42B58F652.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_Auto1.uasset'
+[2020.02.03-02.33.16:074][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/M_MED_Astronaut] ([1] browsable assets)...
+[2020.02.03-02.33.16:135][ 73]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/M_MED_Astronaut.M_MED_Astronaut]
+[2020.02.03-02.33.16:135][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/M_MED_Astronaut]
+[2020.02.03-02.33.16:300][ 73]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/M_MED_Astronaut_Auto1C779FD6F4F3F9178C288AEA8409BFEEF.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/M_MED_Astronaut_Auto1.uasset'
+[2020.02.03-02.33.16:317][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/DanceMoves_PhysicsAsset] ([1] browsable assets)...
+[2020.02.03-02.33.16:351][ 73]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Models/DanceMoves_PhysicsAsset.DanceMoves_PhysicsAsset]
+[2020.02.03-02.33.16:352][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves_PhysicsAsset]
+[2020.02.03-02.33.16:389][ 73]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_PhysicsAsset_Auto1898E0B68493388F8CDE2B582DA48F895.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_PhysicsAsset_Auto1.uasset'
+[2020.02.03-02.33.16:390][ 73]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/DanceMoves_Skeleton] ([1] browsable assets)...
+[2020.02.03-02.33.16:390][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves_Skeleton]
+[2020.02.03-02.33.16:749][ 73]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_Skeleton_Auto1CC9270C6443647BD4ED77897CBCC2448.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_Skeleton_Auto1.uasset'
+[2020.02.03-02.33.16:750][ 73]LogFileHelpers: Auto-saving content packages took 0.813
+[2020.02.03-02.34.35:015][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.02.03-02.34.40:299][480]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.03-02.34.41:555][480]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Models/DanceMoves.DanceMoves
+	Asset Name: /Game/Models/DanceMoves_PhysicsAsset.DanceMoves_PhysicsAsset
+	Asset Name: /Game/Models/DanceMoves_Skeleton.DanceMoves_Skeleton
+[2020.02.03-02.34.44:126][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.02.03-02.34.50:333][681]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Thero/Desktop/HELP/FBX/DanceMoves.FBX)
+[2020.02.03-02.34.50:359][681]LogFbx: Loading FBX Scene from C:/Users/Thero/Desktop/HELP/FBX/DanceMoves.FBX
+[2020.02.03-02.34.50:520][681]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.03-02.35.03:232][681]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.02.03-02.35.03:343][681]LogFbx: Valid bind pose for Pose (BIND_POSES) - SK_M_MED_Astronaut_01
+[2020.02.03-02.35.03:370][681]LogFbx: Warning: Bones digested - 92  Depth of hierarchy - 15
+[2020.02.03-02.35.03:738][681]LogSkeletalMesh: Section 0: 7353 vertices, 73 active bones
+[2020.02.03-02.35.03:739][681]LogSkeletalMesh: Section 0: Material=0, 12670 triangles
+[2020.02.03-02.35.03:753][681]LogSkeletalMesh: Building Skeletal Mesh DanceMoves...
+[2020.02.03-02.35.04:060][681]LogSkeletalMesh: Section 0: 7353 vertices, 73 active bones
+[2020.02.03-02.35.04:062][681]LogSkeletalMesh: Section 0: Material=0, 12670 triangles
+[2020.02.03-02.35.04:087][681]LogSkeletalMesh: Built Skeletal Mesh [0.33s] /Game/Models/DanceMoves.DanceMoves
+[2020.02.03-02.35.04:105][681]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.35.04:105][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(0) root
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(1) attach
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(2) pelvis
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(3) spine_01
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(4) spine_02
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(5) spine_03
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(6) spine_04
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(7) spine_05
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(8) clavicle_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(9) upperarm_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(10) lowerarm_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(11) hand_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(12) index_metacarpal_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(13) index_01_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(14) index_02_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(15) index_03_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(16) middle_metacarpal_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(17) middle_01_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(18) middle_02_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(19) middle_03_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(20) pinky_metacarpal_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(21) pinky_01_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(22) pinky_02_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(23) pinky_03_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(24) ring_metacarpal_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(25) ring_01_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(26) ring_02_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(27) ring_03_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(28) thumb_01_l
+[2020.02.03-02.35.04:163][681]LogFbx: SortedLinks :(29) thumb_02_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(30) thumb_03_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(31) weapon_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(32) lowerarm_twist_01_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(33) lowerarm_twist_02_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(34) upperarm_twist_01_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(35) upperarm_twist_02_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(36) clavicle_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(37) upperarm_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(38) lowerarm_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(39) hand_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(40) index_metacarpal_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(41) index_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(42) index_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(43) index_03_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(44) middle_metacarpal_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(45) middle_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(46) middle_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(47) middle_03_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(48) pinky_metacarpal_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(49) pinky_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(50) pinky_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(51) pinky_03_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(52) ring_metacarpal_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(53) ring_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(54) ring_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(55) ring_03_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(56) thumb_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(57) thumb_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(58) thumb_03_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(59) weapon_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(60) lowerarm_twist_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(61) lowerarm_twist_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(62) upperarm_twist_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(63) upperarm_twist_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(64) dyn_armband_knot
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(65) dyn_armband_hi
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(66) dyn_armband_low
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(67) neck_01
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(68) neck_02
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(69) head
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(70) helmet
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(71) thigh_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(72) calf_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(73) calf_twist_01_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(74) calf_twist_02_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(75) foot_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(76) ball_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(77) thigh_twist_01_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(78) thigh_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(79) calf_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(80) calf_twist_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(81) calf_twist_02_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(82) foot_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(83) ball_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(84) thigh_twist_01_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(85) ik_foot_root
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(86) ik_foot_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(87) ik_foot_r
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(88) ik_hand_root
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(89) ik_hand_gun
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(90) ik_hand_l
+[2020.02.03-02.35.04:164][681]LogFbx: SortedLinks :(91) ik_hand_r
+[2020.02.03-02.35.04:175][681]LogFbx: Parsing AnimStack DanceMoves
+[2020.02.03-02.35.04:175][681]LogLinker: Failed to load '/Game/Models/DanceMoves_Anim': Can't find file.
+[2020.02.03-02.35.04:175][681]LogLinker: Failed to load '/Game/Models/DanceMoves_Anim': Can't find file.
+[2020.02.03-02.35.06:135][681]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Models/DanceMoves_Anim.DanceMoves_Anim
+[2020.02.03-02.35.06:140][681]LogAnimationCompression: Recompressing (AnimSequence /Game/Models/DanceMoves_Anim.DanceMoves_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.02.03-02.35.06:224][681]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.03-02.35.08:903][819]LogSlate: Window 'Message Log' being destroyed
+[2020.02.03-02.35.08:909][819]LogSlate: Window 'Message Log' being destroyed
+[2020.02.03-02.35.16:153][240]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.35.16:178][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.03-02.35.16:179][240]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:35:16 PM)
+[2020.02.03-02.35.16:179][240]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.35.16:184][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005122s)
+[2020.02.03-02.35.16:186][240]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.35.16:186][240]LogPlayLevel: PIE: World Init took: (0.002411s)
+[2020.02.03-02.35.16:186][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007706s)
+[2020.02.03-02.35.16:229][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.35.16:233][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.35.16:233][240]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.35.16:233][240]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.35.16:251][240]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.35.16:266][240]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.35.16:267][240]LogInit: FAudioDevice initialized.
+[2020.02.03-02.35.16:274][240]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.35.16:278][240]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.35.16
+[2020.02.03-02.35.16:278][240]LogWorld: Bringing up level for play took: 0.002749
+[2020.02.03-02.35.16:279][240]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.02.03-02.35.16:281][240]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.815
+[2020.02.03-02.35.20:629][497]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.20:629][497]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.20:629][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.35.20:629][497]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.35.20:629][497]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.20:629][497]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.35.20:630][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.35.20:636][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.35.20:640][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.35.20:667][497]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.20:671][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.35.20:675][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.02.03-02.35.20:731][500]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.02.03-02.35.21:598][552]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (DanceMoves)
+[2020.02.03-02.35.22:746][619]Cmd: DELETE
+[2020.02.03-02.35.22:746][619]Cmd: ACTOR DELETE
+[2020.02.03-02.35.22:785][619]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2020.02.03-02.35.22:815][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.02.03-02.35.22:817][619]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2020.02.03-02.35.27:296][880]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.35.27:323][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.03-02.35.27:323][880]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:35:27 PM)
+[2020.02.03-02.35.27:323][880]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.35.27:329][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005542s)
+[2020.02.03-02.35.27:331][880]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.35.27:331][880]LogPlayLevel: PIE: World Init took: (0.002192s)
+[2020.02.03-02.35.27:331][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.008005s)
+[2020.02.03-02.35.27:366][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.35.27:367][880]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.35.27:367][880]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.35.27:367][880]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.35.27:384][880]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.35.27:397][880]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.35.27:399][880]LogInit: FAudioDevice initialized.
+[2020.02.03-02.35.27:409][880]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.35.27:413][880]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.35.27
+[2020.02.03-02.35.27:413][880]LogWorld: Bringing up level for play took: 0.002954
+[2020.02.03-02.35.27:414][880]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.02.03-02.35.27:417][880]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.321
+[2020.02.03-02.35.36:144][268]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.36:144][268]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.36:144][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.35.36:144][268]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.35.36:144][268]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.36:145][268]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.35.36:145][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.35.36:156][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.35.36:161][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.35.36:191][268]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.35.36:195][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.35.36:198][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.02.03-02.35.36:256][271]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.02.03-02.41.28:278][455]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (DanceMoves_Anim)
+[2020.02.03-02.41.29:069][500]Cmd: DELETE
+[2020.02.03-02.41.29:069][500]Cmd: ACTOR DELETE
+[2020.02.03-02.41.29:070][500]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2020.02.03-02.41.29:106][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2020.02.03-02.41.29:107][500]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.02.03-02.41.35:601][883]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.42.30:904][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-02.42.30:976][  9]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1507D0A70412C5442FB3B81B8D2C92582.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-02.42.30:997][  9]AssetCheck: New page: Asset Save: BP_Enemy1
+[2020.02.03-02.42.30:997][  9]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.42.53:862][ 60]LogSlate: Window 'BP_Enemy1' being destroyed
+[2020.02.03-02.43.45:022][846]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Models/DanceMoves_Anim.DanceMoves_Anim
+[2020.02.03-02.43.45:430][846]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.02.03-02.43.45:463][846]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.02.03-02.43.46:390][846]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.02.03-02.44.00:899][224]LogSlate: Window 'Save Asset As' being destroyed
+[2020.02.03-02.44.06:757][567]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.44.06:757][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.44.06:813][567]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.44.06:813][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.44.06:979][567]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.44.06:979][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.44.34:110][812]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2020.02.03-02.44.34:163][812]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level1_Auto2BC0BF8BE43AAFC541BCE38B7F554C718.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Maps/Level1_Auto2.umap'
+[2020.02.03-02.44.34:357][812]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.323
+[2020.02.03-02.44.34:357][812]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.323
+[2020.02.03-02.44.34:358][812]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Enemy1] ([1] browsable assets)...
+[2020.02.03-02.44.34:399][812]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1]
+[2020.02.03-02.44.34:399][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Enemy1]
+[2020.02.03-02.44.34:428][812]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1_Auto2A17801CF4CE3B9D6F479868577339FB0.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Blueprints/BP_Enemy1_Auto2.uasset'
+[2020.02.03-02.44.34:429][812]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/DanceMoves] ([1] browsable assets)...
+[2020.02.03-02.44.34:456][812]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Models/DanceMoves.DanceMoves]
+[2020.02.03-02.44.34:456][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves]
+[2020.02.03-02.44.34:517][812]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_Auto25F60BD654F7015BBBE73F4BA89576CC3.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_Auto2.uasset'
+[2020.02.03-02.44.34:518][812]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/DanceMoves_Skeleton] ([1] browsable assets)...
+[2020.02.03-02.44.34:518][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves_Skeleton]
+[2020.02.03-02.44.34:528][812]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_Skeleton_Auto25D51F3154E29AD674E6EEB811CEA19D0.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_Skeleton_Auto2.uasset'
+[2020.02.03-02.44.34:529][812]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/DanceMoves_PhysicsAsset] ([1] browsable assets)...
+[2020.02.03-02.44.34:558][812]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Models/DanceMoves_PhysicsAsset.DanceMoves_PhysicsAsset]
+[2020.02.03-02.44.34:558][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves_PhysicsAsset]
+[2020.02.03-02.44.34:589][812]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_PhysicsAsset_Auto2A381A1E64B3098377310A4B61A6D382F.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_PhysicsAsset_Auto2.uasset'
+[2020.02.03-02.44.34:590][812]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/DanceMoves_Anim] ([1] browsable assets)...
+[2020.02.03-02.44.34:620][812]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Models/DanceMoves_Anim.DanceMoves_Anim]
+[2020.02.03-02.44.34:620][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/DanceMoves_Anim]
+[2020.02.03-02.44.34:650][812]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_Anim_Auto2D29C02CD4AAD08150311849E66617D35.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Autosaves/Game/Models/DanceMoves_Anim_Auto2.uasset'
+[2020.02.03-02.44.34:650][812]LogFileHelpers: Auto-saving content packages took 0.292
+[2020.02.03-02.45.06:099][548]LogEditorTransaction: Undo Make New Scene Root
+[2020.02.03-02.45.37:873][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-02.45.37:893][375]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1930020CF4F3C829A378885AD4B76E247.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-02.45.37:928][375]AssetCheck: New page: Asset Save: BP_Enemy1
+[2020.02.03-02.45.37:928][375]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.46.08:303][ 93]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.03-02.47.12:058][781]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.03-02.47.12:065][781]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.47.12:065][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.47.12:084][781]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.47.12:084][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.47.35:022][ 98]LogSlate: Window 'Select Skeleton' being destroyed
+[2020.02.03-02.47.35:028][ 98]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.47.35:028][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.47.35:040][ 98]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.47.35:040][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.47.47:780][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DanceMoves_Skeleton" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves_Skeleton.uasset" SILENT=true
+[2020.02.03-02.47.47:794][824]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_SkeletonCD0755564BD47FC73FC50CA29DBD457D.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves_Skeleton.uasset'
+[2020.02.03-02.47.47:825][824]AssetCheck: New page: Asset Save: DanceMoves_Skeleton
+[2020.02.03-02.47.47:825][824]LogContentValidation: Display: Validating Skeleton /Game/Models/DanceMoves_Skeleton.DanceMoves_Skeleton
+[2020.02.03-02.47.51:780][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-02.47.51:858][ 51]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy16611F4A84F4E1E9EB854DE8AE7CD448F.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-02.47.51:873][ 51]AssetCheck: New page: Asset Save: BP_Enemy1
+[2020.02.03-02.47.51:873][ 51]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.47.52:970][116]LogSlate: Window 'BP_Enemy1' being destroyed
+[2020.02.03-02.47.53:004][116]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.47.53:004][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.47.57:543][369]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.47.57:568][369]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.03-02.47.57:569][369]LogPlayLevel: [PlayLevel] Compiling BP_Enemy1 before play...
+[2020.02.03-02.47.57:875][369]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2020.02.03-02.47.57:880][369]LogPlayLevel: PlayLevel: Blueprint regeneration took 312 ms (1 blueprints)
+[2020.02.03-02.47.57:881][369]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:47:57 PM)
+[2020.02.03-02.47.57:881][369]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.47.57:885][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004488s)
+[2020.02.03-02.47.57:887][369]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.47.57:888][369]LogPlayLevel: PIE: World Init took: (0.002354s)
+[2020.02.03-02.47.57:888][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007036s)
+[2020.02.03-02.47.57:944][369]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.02.03-02.47.57:944][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.47.57:944][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.47.57:945][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.47.57:945][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.47.57:945][369]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.47.57:945][369]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.47.57:945][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.47.57:945][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.47.57:945][369]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.47.57:945][369]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.47.57:963][369]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.47.57:978][369]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.47.57:979][369]LogInit: FAudioDevice initialized.
+[2020.02.03-02.47.57:990][369]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.47.57:994][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.47.57
+[2020.02.03-02.47.57:994][369]LogWorld: Bringing up level for play took: 0.002081
+[2020.02.03-02.47.57:994][369]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.02.03-02.47.57:997][369]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.901
+[2020.02.03-02.48.04:577][759]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.48.04:577][759]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.48.04:578][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.48.04:578][759]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.48.04:578][759]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.48.04:578][759]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.48.04:578][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.48.04:585][759]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.48.04:590][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.48.04:622][759]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.48.04:626][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.48.04:631][759]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.02.03-02.48.04:689][762]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.02.03-02.48.08:435][978]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.48.28:552][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-02.48.28:584][ 19]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1C5608FDF44DFA4BA2081EB8C6AC93C23.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-02.48.28:601][ 19]AssetCheck: New page: Asset Save: BP_Enemy1
+[2020.02.03-02.48.28:601][ 19]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.48.54:757][490]LogEditorTransaction: Undo Edit Static Mesh
+[2020.02.03-02.49.08:781][311]LogEditorTransaction: Undo Modify Component(s)
+[2020.02.03-02.49.28:515][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-02.49.28:543][463]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1FFD6EBE74AC58264678EF38537A71B84.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-02.49.28:561][463]AssetCheck: New page: Asset Save: BP_Enemy1
+[2020.02.03-02.49.28:561][463]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.49.47:315][467]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.02.03-02.49.47:338][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.03-02.49.47:379][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.02.03-02.49.47:417][467]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/Level1BB20B16C4A96933F5AA5229F7C5D1771.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Maps/Level1.umap'
+[2020.02.03-02.49.47:458][467]LogFileHelpers: Saving map 'Level1' took 0.120
+[2020.02.03-02.49.47:485][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Enemy1" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset" SILENT=true
+[2020.02.03-02.49.47:508][467]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Enemy1519654E4492FD871A265B395556AF03F.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Enemy1.uasset'
+[2020.02.03-02.49.47:510][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/M_MED_Astronaut" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/M_MED_Astronaut.uasset" SILENT=true
+[2020.02.03-02.49.47:518][467]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/M_MED_Astronaut51F86E7D446AE0C4BB0FF6A27A4DBECF.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/M_MED_Astronaut.uasset'
+[2020.02.03-02.49.47:525][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DanceMoves" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves.uasset" SILENT=true
+[2020.02.03-02.49.47:579][467]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMovesC60C2F884C5C695CD47CE1A9342F3EE9.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves.uasset'
+[2020.02.03-02.49.47:600][467]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_PhysicsAsset5B62783046C079CD2D697A83F0D5B314.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves_PhysicsAsset.uasset'
+[2020.02.03-02.49.47:605][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DanceMoves_Anim" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves_Anim.uasset" SILENT=true
+[2020.02.03-02.49.47:619][467]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/DanceMoves_Anim585CC993472D83EFF596359FDC1896B0.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Models/DanceMoves_Anim.uasset'
+[2020.02.03-02.49.47:663][467]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.03-02.49.47:663][467]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2020.02.03-02.49.47:663][467]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Enemy1.BP_Enemy1
+[2020.02.03-02.49.47:663][467]LogContentValidation: Display: Validating Material /Game/Models/M_MED_Astronaut.M_MED_Astronaut
+[2020.02.03-02.49.47:663][467]LogContentValidation: Display: Validating SkeletalMesh /Game/Models/DanceMoves.DanceMoves
+[2020.02.03-02.49.47:663][467]LogContentValidation: Display: Validating PhysicsAsset /Game/Models/DanceMoves_PhysicsAsset.DanceMoves_PhysicsAsset
+[2020.02.03-02.49.47:663][467]LogContentValidation: Display: Validating AnimSequence /Game/Models/DanceMoves_Anim.DanceMoves_Anim
+[2020.02.03-02.49.48:203][497]LogSlate: Window 'BP_Enemy1' being destroyed
+[2020.02.03-02.49.48:210][497]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.49.48:210][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.49.50:389][619]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.49.50:405][619]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.03-02.49.50:406][619]LogPlayLevel: [PlayLevel] Compiling BP_Enemy1 before play...
+[2020.02.03-02.49.50:656][619]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.02.03-02.49.50:657][619]LogPlayLevel: PlayLevel: Blueprint regeneration took 251 ms (1 blueprints)
+[2020.02.03-02.49.50:657][619]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:49:50 PM)
+[2020.02.03-02.49.50:657][619]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.49.50:662][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004418s)
+[2020.02.03-02.49.50:663][619]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.49.50:663][619]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2020.02.03-02.49.50:663][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.005836s)
+[2020.02.03-02.49.50:694][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.49.50:694][619]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.49.50:694][619]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.49.50:695][619]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.49.50:695][619]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.49.50:711][619]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.49.50:711][619]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.49.50:712][619]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.49.50:725][619]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.49.50:728][619]LogInit: FAudioDevice initialized.
+[2020.02.03-02.49.50:739][619]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.49.50:743][619]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.49.50
+[2020.02.03-02.49.50:743][619]LogWorld: Bringing up level for play took: 0.002641
+[2020.02.03-02.49.50:743][619]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.02.03-02.49.50:745][619]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.35
+[2020.02.03-02.50.05:974][523]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.50.05:974][523]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.50.05:974][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.50.05:974][523]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.50.05:974][523]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.50.05:975][523]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.50.05:975][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.50.05:985][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.50.05:990][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.50.06:021][523]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.50.06:025][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.50.06:029][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.02.03-02.50.06:083][526]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.02.03-02.52.12:375][763]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-02.53.00:989][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bullet" FILE="../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset" SILENT=true
+[2020.02.03-02.53.01:038][806]LogSavePackage: Moving '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Saved/BP_Bullet5B86BF504534FB80EC59F49F674A07F0.tmp' to '../../../../../College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/Content/Blueprints/BP_Bullet.uasset'
+[2020.02.03-02.53.01:051][806]AssetCheck: New page: Asset Save: BP_Bullet
+[2020.02.03-02.53.01:052][806]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2020.02.03-02.53.03:630][960]LogSlate: Window 'BP_Bullet' being destroyed
+[2020.02.03-02.53.03:636][960]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.53.03:636][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.53.06:533][126]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.53.06:557][126]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.03-02.53.06:558][126]LogPlayLevel: [PlayLevel] Compiling BP_Bullet before play...
+[2020.02.03-02.53.06:824][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.02.03-02.53.06:827][126]LogPlayLevel: PlayLevel: Blueprint regeneration took 270 ms (1 blueprints)
+[2020.02.03-02.53.06:827][126]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:53:06 PM)
+[2020.02.03-02.53.06:827][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.53.06:832][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004834s)
+[2020.02.03-02.53.06:833][126]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.53.06:834][126]LogPlayLevel: PIE: World Init took: (0.001668s)
+[2020.02.03-02.53.06:834][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.006676s)
+[2020.02.03-02.53.06:868][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.53.06:868][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.53.06:868][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.53.06:869][126]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.53.06:869][126]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.53.06:888][126]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.53.06:901][126]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.53.06:903][126]LogInit: FAudioDevice initialized.
+[2020.02.03-02.53.06:914][126]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.53.06:917][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.53.06
+[2020.02.03-02.53.06:917][126]LogWorld: Bringing up level for play took: 0.002269
+[2020.02.03-02.53.06:917][126]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.02.03-02.53.06:920][126]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.176
+[2020.02.03-02.53.24:779][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.53.24:779][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.53.24:779][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.53.24:779][191]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.53.24:779][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.53.24:779][191]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.53.24:780][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.53.24:790][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.53.24:795][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.53.24:828][191]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.53.24:832][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.53.24:836][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.02.03-02.53.24:884][193]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.02.03-02.53.43:819][398]Candidate modules for hot reload:
+[2020.02.03-02.53.43:819][398]  FortniteTowerDefense
+[2020.02.03-02.53.43:820][398]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,9197 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-02.53.43:834][398]Warning: Starting HotReload took  0.0s.
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 4:54:11 PM
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 9.5565808 seconds
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:   [1/4] Bullet.cpp
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:   [2/4] UE4Editor-FortniteTowerDefense-9197.lib
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-9197.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-9197.exp
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:   [3/4] UE4Editor-FortniteTowerDefense-9197.dll
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-9197.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-9197.suppressed.exp
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog:   [4/4] FortniteTowerDefenseEditor.target
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Total time in Parallel executor: 16.07 seconds
+[2020.02.03-02.54.11:355][ 72]CompilerResultsLog: Total execution time: 27.22 seconds
+[2020.02.03-02.54.11:355][ 72]LogMainFrame: MainFrame: Module compiling took 27.544 seconds
+[2020.02.03-02.54.11:396][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.02.03-02.54.11:440][ 72]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.02.03-02.54.11:446][ 72]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.02.03-02.54.11:595][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.02.03-02.54.11:634][ 72]LogContentBrowser: Native class hierarchy populated in 0.0202 seconds. Added 3023 classes and 724 folders.
+[2020.02.03-02.54.11:634][ 72]Display: HotReload took 27.8s.
+[2020.02.03-02.54.14:489][210]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.54.14:527][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.03-02.54.14:527][210]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:54:14 PM)
+[2020.02.03-02.54.14:527][210]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.54.14:536][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008871s)
+[2020.02.03-02.54.14:538][210]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.54.14:538][210]LogPlayLevel: PIE: World Init took: (0.002049s)
+[2020.02.03-02.54.14:538][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.011173s)
+[2020.02.03-02.54.14:648][210]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.54.14:650][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.54.14:650][210]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.54.14:650][210]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.54.14:679][210]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.54.14:697][210]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.54.14:699][210]LogInit: FAudioDevice initialized.
+[2020.02.03-02.54.14:705][210]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.54.14:709][210]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.54.14
+[2020.02.03-02.54.14:709][210]LogWorld: Bringing up level for play took: 0.003622
+[2020.02.03-02.54.14:709][210]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.02.03-02.54.14:712][210]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.384
+[2020.02.03-02.54.25:442][850]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.54.25:442][850]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.54.25:442][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.54.25:442][850]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.54.25:442][850]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.54.25:442][850]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.54.25:443][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.54.25:449][850]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.54.25:457][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.54.25:508][850]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.54.25:514][850]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.54.25:561][850]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2020.02.03-02.54.25:582][851]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.02.03-02.54.44:813][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.02.03-02.54.47:790][429]Candidate modules for hot reload:
+[2020.02.03-02.54.47:790][429]  FortniteTowerDefense
+[2020.02.03-02.54.47:791][429]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,2149 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-02.54.47:802][429]Warning: Starting HotReload took  0.0s.
+[2020.02.03-02.55.13:794][641]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 4:55:13 PM
+[2020.02.03-02.55.13:794][641]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-02.55.13:794][641]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-02.55.13:794][641]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-02.55.13:794][641]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 11.2267407 seconds
+[2020.02.03-02.55.13:794][641]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-02.55.13:794][641]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-02.55.13:795][641]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.02.03-02.55.13:795][641]CompilerResultsLog:   [1/4] Bullet.cpp
+[2020.02.03-02.55.13:795][641]CompilerResultsLog:   [2/4] UE4Editor-FortniteTowerDefense-2149.lib
+[2020.02.03-02.55.13:795][641]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2149.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2149.exp
+[2020.02.03-02.55.13:795][641]CompilerResultsLog:   [3/4] UE4Editor-FortniteTowerDefense-2149.dll
+[2020.02.03-02.55.13:795][641]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2149.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-2149.suppressed.exp
+[2020.02.03-02.55.13:795][641]CompilerResultsLog:   [4/4] FortniteTowerDefenseEditor.target
+[2020.02.03-02.55.13:795][641]CompilerResultsLog: Total time in Parallel executor: 12.37 seconds
+[2020.02.03-02.55.13:795][641]CompilerResultsLog: Total execution time: 25.65 seconds
+[2020.02.03-02.55.13:795][641]LogMainFrame: MainFrame: Module compiling took 26.012 seconds
+[2020.02.03-02.55.13:831][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.02.03-02.55.13:863][641]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2020.02.03-02.55.13:868][641]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.02.03-02.55.13:977][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.02.03-02.55.13:995][641]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3023 classes and 724 folders.
+[2020.02.03-02.55.13:996][641]Display: HotReload took 26.2s.
+[2020.02.03-02.55.16:707][766]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.03-02.55.16:733][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.03-02.55.16:733][766]PIE: New page: PIE session: Level1 (Feb 2, 2020, 4:55:16 PM)
+[2020.02.03-02.55.16:733][766]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.55.16:737][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004143s)
+[2020.02.03-02.55.16:738][766]LogAIModule: Creating AISystem for world Level1
+[2020.02.03-02.55.16:739][766]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2020.02.03-02.55.16:739][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.005523s)
+[2020.02.03-02.55.16:834][766]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.03-02.55.16:835][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.03-02.55.16:835][766]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.03-02.55.16:835][766]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Is Default: Yes
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: Channel Order:
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.03-02.55.16:856][766]LogAudioMixer: Display: 1: FrontRight
+[2020.02.03-02.55.16:869][766]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.03-02.55.16:870][766]LogInit: FAudioDevice initialized.
+[2020.02.03-02.55.16:877][766]LogLoad: Game class is 'GameModeBase'
+[2020.02.03-02.55.16:880][766]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.02.02-21.55.16
+[2020.02.03-02.55.16:880][766]LogWorld: Bringing up level for play took: 0.001813
+[2020.02.03-02.55.16:880][766]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.02.03-02.55.16:882][766]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.214
+[2020.02.03-02.55.29:596][526]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.55.29:597][526]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.55.29:597][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.55.29:597][526]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2020.02.03-02.55.29:597][526]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.55.29:597][526]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.02.03-02.55.29:597][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.55.29:605][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.03-02.55.29:610][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.03-02.55.29:636][526]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.03-02.55.29:640][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.03-02.55.29:663][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.02.03-02.55.29:707][528]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.02.03-02.56.53:756][929]LogEditorViewport: Clicking on Actor (LMB): BP_ShotgunTower_C (BP_ShotgunTower)
+[2020.02.03-02.56.55:758][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_ShotgunTower_C (BP_ShotgunTower)
+[2020.02.03-02.56.58:366][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.02.03-02.57.00:394][320]LogEditorViewport: Clicking on Actor (LMB): BP_ShotgunTower_C (BP_ShotgunTower)
+[2020.02.03-02.57.07:823][759]Cmd: TRANSACTION UNDO
+[2020.02.03-02.57.07:823][759]LogEditorTransaction: Undo Rotate Actors
+[2020.02.03-02.58.53:046][347]Candidate modules for hot reload:
+[2020.02.03-02.58.53:046][347]  FortniteTowerDefense
+[2020.02.03-02.58.53:046][347]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,3315 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-02.58.53:058][347]Warning: Starting HotReload took  0.0s.

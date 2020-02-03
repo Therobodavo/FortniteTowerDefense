@@ -38,8 +38,8 @@ void ABullet::BeginPlay()
 void ABullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	SetActorLocation(GetActorLocation() + (GetActorForwardVector() * 100));
-	if (GetWorld()->GetRealTimeSeconds() - timeCreated > 3) 
+	SetActorLocation(GetActorLocation() + (GetActorForwardVector() * 75));
+	if (GetWorld()->GetRealTimeSeconds() - timeCreated > .15) 
 	{
 		Destroy();
 	}
