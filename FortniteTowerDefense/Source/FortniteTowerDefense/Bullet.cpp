@@ -39,18 +39,18 @@ void ABullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	SetActorLocation(GetActorLocation() + (GetActorForwardVector() * 100));
-	//if (GetWorld()->GetRealTimeSeconds() - timeCreated > 3) 
-	//{
-	//	Destroy();
-	//}
+	if (GetWorld()->GetRealTimeSeconds() - timeCreated > 3) 
+	{
+		Destroy();
+	}
 }
 
 void ABullet::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor->ActorHasTag("Enemy"))
 	{
-	//	AEnemy1* enemy = Cast<AEnemy1>(OtherActor);
-	//	enemy->Health = 0;
+		AEnemy1* enemy = Cast<AEnemy1>(OtherActor);
+		enemy->Health = 0;
 	}
 }
 
