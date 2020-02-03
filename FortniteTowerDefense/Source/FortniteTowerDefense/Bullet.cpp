@@ -19,7 +19,7 @@ ABullet::ABullet()
 void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
-	//timeCreated = GetWorld()->GetRealTimeSeconds();
+	timeCreated = GetWorld()->GetRealTimeSeconds();
 	GetRootComponent()->GetChildrenComponents(true, allComponents);
 	for (USceneComponent* part : allComponents)
 	{

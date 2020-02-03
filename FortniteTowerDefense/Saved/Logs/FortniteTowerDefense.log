@@ -636,3 +636,30 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.03-02.12.04:514][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
 [2020.02.03-02.12.04:531][759]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3022 classes and 722 folders.
 [2020.02.03-02.12.04:531][759]Display: HotReload took 25.5s.
+[2020.02.03-02.12.36:235][ 99]Candidate modules for hot reload:
+[2020.02.03-02.12.36:235][ 99]  FortniteTowerDefense
+[2020.02.03-02.12.36:235][ 99]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FortniteTowerDefense,1242 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject" "D:/College Stuff/Unreal/FortniteTowerDefense/FortniteTowerDefense/FortniteTowerDefense.uproject"  -IgnoreJunk]
+[2020.02.03-02.12.36:246][ 99]Warning: Starting HotReload took  0.0s.
+[2020.02.03-02.13.06:175][211]CompilerResultsLog: New page: Compilation - Feb 2, 2020, 4:13:06 PM
+[2020.02.03-02.13.06:176][211]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
+[2020.02.03-02.13.06:176][211]CompilerResultsLog: Parsing headers for FortniteTowerDefenseEditor
+[2020.02.03-02.13.06:176][211]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.03-02.13.06:176][211]CompilerResultsLog: Reflection code generated for FortniteTowerDefenseEditor in 9.3734675 seconds
+[2020.02.03-02.13.06:176][211]CompilerResultsLog: Building FortniteTowerDefenseEditor...
+[2020.02.03-02.13.06:176][211]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.03-02.13.06:176][211]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.02.03-02.13.06:176][211]CompilerResultsLog:   [1/4] Bullet.cpp
+[2020.02.03-02.13.06:176][211]CompilerResultsLog:   [2/4] UE4Editor-FortniteTowerDefense-1242.lib
+[2020.02.03-02.13.06:176][211]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-1242.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-1242.exp
+[2020.02.03-02.13.06:176][211]CompilerResultsLog:   [3/4] UE4Editor-FortniteTowerDefense-1242.dll
+[2020.02.03-02.13.06:176][211]CompilerResultsLog:      Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-1242.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-1242.suppressed.exp
+[2020.02.03-02.13.06:177][211]CompilerResultsLog:   [4/4] FortniteTowerDefenseEditor.target
+[2020.02.03-02.13.06:177][211]CompilerResultsLog: Total time in Parallel executor: 16.77 seconds
+[2020.02.03-02.13.06:177][211]CompilerResultsLog: Total execution time: 29.48 seconds
+[2020.02.03-02.13.06:177][211]LogMainFrame: MainFrame: Module compiling took 29.951 seconds
+[2020.02.03-02.13.06:212][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.02.03-02.13.06:251][211]LogContentBrowser: Native class hierarchy updated for 'FortniteTowerDefense' in 0.0004 seconds. Added 5 classes and 2 folders.
+[2020.02.03-02.13.06:254][211]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2020.02.03-02.13.06:357][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.02.03-02.13.06:383][211]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3022 classes and 722 folders.
+[2020.02.03-02.13.06:383][211]Display: HotReload took 30.2s.
