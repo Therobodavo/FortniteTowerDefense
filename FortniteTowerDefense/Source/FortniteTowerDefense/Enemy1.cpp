@@ -51,6 +51,7 @@ void AEnemy1::BeginPlay()
 				if (collider != NULL)
 				{
 					collider->OnComponentBeginOverlap.AddDynamic(this, &AEnemy1::OnOverlap);
+					break;
 				}
 
 			}
@@ -87,14 +88,15 @@ void AEnemy1::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 {
 	if (OtherComp != NULL)
 	{
+		
 		if (OtherComp->ComponentHasTag("End"))
 		{
 			Destroy();
 		}
 		if (OtherComp->ComponentHasTag("PathSpot") && OtherComp->GetName() != "Start")
 		{
+			
 			pathIndex = FCString::Atoi(*OtherComp->GetName()) + 1;
-
 			for (USceneComponent* i : PathBlocks)
 			{
 				FString temp;

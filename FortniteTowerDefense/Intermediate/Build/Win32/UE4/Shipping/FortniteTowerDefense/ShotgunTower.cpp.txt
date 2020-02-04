@@ -1,0 +1,20 @@
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win32\UE4\Shipping\FortniteTowerDefense\Definitions.FortniteTowerDefense.h
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\ShotgunTower.h
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win32\UE4\Inc\FortniteTowerDefense\ShotgunTower.generated.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\Enemy1.h
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win32\UE4\Inc\FortniteTowerDefense\Enemy1.generated.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\vector
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xatomic.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\cstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\utility
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Source\FortniteTowerDefense\Bullet.h
+D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win32\UE4\Inc\FortniteTowerDefense\Bullet.generated.h

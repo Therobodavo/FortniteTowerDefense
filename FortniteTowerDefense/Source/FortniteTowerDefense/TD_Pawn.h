@@ -27,9 +27,10 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	UPROPERTY(EditAnywhere)
 		USceneComponent* OurVisibleComponent;
+	
 
 	UFUNCTION()
-	void InceaseWave();
+	void IncreaseWave();
 	UFUNCTION()
 	void DecreaseWave();
 };

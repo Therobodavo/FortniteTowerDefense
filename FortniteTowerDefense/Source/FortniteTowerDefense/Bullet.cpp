@@ -38,7 +38,7 @@ void ABullet::BeginPlay()
 void ABullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	SetActorLocation(GetActorLocation() + (GetActorForwardVector() * 75));
+	SetActorLocation(GetActorLocation() + (GetActorForwardVector() * 50));
 	if (GetWorld()->GetRealTimeSeconds() - timeCreated > despawnTime) 
 	{
 		Destroy();
@@ -51,6 +51,7 @@ void ABullet::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 	{
 		AEnemy1* enemy = Cast<AEnemy1>(OtherActor);
 		enemy->Health -= damage;
+		Destroy();
 	}
 }
 

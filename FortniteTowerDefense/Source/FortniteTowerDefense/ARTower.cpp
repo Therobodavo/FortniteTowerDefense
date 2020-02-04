@@ -59,16 +59,19 @@ void AARTower::BeginPlay()
 void AARTower::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	bool canFire = false;
 	for (TObjectIterator<AEnemy1> I; I; ++I)
 	{
-		if (abs((I->GetActorLocation() - bullet->GetComponentLocation()).Size()) < 500)
+		if (abs((I->GetActorLocation() - bullet->GetComponentLocation()).Size()) < 700)
 		{
-			if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate)
-			{
-				FireBullet();
-				lastFired = GetWorld()->GetRealTimeSeconds();
-			}
+			canFire = true;
+			break;
 		}
+	}
+	if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate && canFire)
+	{
+		FireBullet();
+		lastFired = GetWorld()->GetRealTimeSeconds();
 	}
 }
 

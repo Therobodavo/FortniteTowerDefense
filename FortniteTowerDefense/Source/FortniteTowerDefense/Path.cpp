@@ -51,8 +51,17 @@ void APath::SpawnEnemy()
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	AEnemy1* e = GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo);
-	e->Health = 50 + (wave * 50);
+	int healthAddition = wave * 50;
+	e->Health = 50 + healthAddition;
+	int speedAddition = wave * 10;
 	e->Speed = 300 + (wave * 10);
+
+	FString s;
+	s.AppendInt(healthAddition);
+	GLog->Log("Health Addition: " + s);
+	s = "";
+	s.AppendInt(speedAddition);
+	GLog->Log("Speed Addition: " + s);
 	enemies.push_back(e);
 }
 

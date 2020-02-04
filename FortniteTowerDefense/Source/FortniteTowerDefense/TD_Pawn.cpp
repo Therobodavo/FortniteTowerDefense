@@ -5,6 +5,9 @@
 #include "Components/InputComponent.h"
 #include <FortniteTowerDefense\Path.h>
 #include "EngineUtils.h"
+
+APath* path = NULL;
+
 // Sets default values
 ATD_Pawn::ATD_Pawn()
 {
@@ -19,7 +22,16 @@ ATD_Pawn::ATD_Pawn()
 void ATD_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	for (TObjectIterator<APath> I; I; ++I)
+	{
+		if (I->GetName() == "MAPPATH")
+		{
+			if (I->IsA(APath::StaticClass()))
+			{
+				path = Cast<APath>(*I);
+			}
+		}
+	}
 }
 
 // Called every frame
@@ -34,23 +46,18 @@ void ATD_Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	/*PlayerInputComponent->BindAction("NextWave", IE_Pressed, this, &ATD_Pawn::NextWave);
-	PlayerInputComponent->BindAction("SelectShotgun", IE_Pressed, this, &ATD_Pawn::SelectShotgun);
-	PlayerInputComponent->BindAction("SelectScar", IE_Pressed, this, &ATD_Pawn::SelectScar);
-	PlayerInputComponent->BindAction("RotateLeft", IE_Pressed, this, &ATD_Pawn::RotateLeft);
-	PlayerInputComponent->BindAction("RotateRight", IE_Pressed, this, &ATD_Pawn::RotateRight);
-	PlayerInputComponent->BindAction("RotateUp", IE_Pressed, this, &ATD_Pawn::RotateUp);
-	PlayerInputComponent->BindAction("RotateDown", IE_Pressed, this, &ATD_Pawn::RotateDown);
-	PlayerInputComponent->BindAction("SpawnTower", IE_Pressed, this, &ATD_Pawn::SpawnTower);
-	PlayerInputComponent->BindAction("Cancel", IE_Pressed, this, &ATD_Pawn::Cancel);*/
+	PlayerInputComponent->BindAction("IncreaseWave", IE_Pressed, this, &ATD_Pawn::IncreaseWave);
+	PlayerInputComponent->BindAction("DecreaseWave", IE_Pressed, this, &ATD_Pawn::DecreaseWave);
 }
 
-void ATD_Pawn::InceaseWave()
+void ATD_Pawn::IncreaseWave()
 {
+	path->wave++;
 }
 
 void ATD_Pawn::DecreaseWave()
 {
+	path->wave--;
 }
 
 

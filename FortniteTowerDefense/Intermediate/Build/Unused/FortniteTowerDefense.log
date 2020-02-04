@@ -3,29 +3,29 @@
   Creating makefile for FortniteTowerDefenseEditor (no existing makefile)
   Parsing headers for FortniteTowerDefenseEditor
     Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FortniteTowerDefenseEditor in 7.1849015 seconds
+  Reflection code generated for FortniteTowerDefenseEditor in 7.3374241 seconds
   Building FortniteTowerDefenseEditor...
   Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 25 actions with 8 processes...
     [1/25] Default.rc2
     [2/25] SharedPCH.Engine.ShadowErrors.cpp
     [3/25] FortniteTowerDefense.cpp
-    [4/25] MyPlayerController.cpp
-    [5/25] MyGameModeBase.cpp
-    [6/25] FortniteTowerDefenseGameModeBase.cpp
+    [4/25] FortniteTowerDefenseGameModeBase.cpp
+    [5/25] MyPlayerController.cpp
+    [6/25] MyGameModeBase.cpp
     [7/25] ARTower.cpp
-    [8/25] ShotgunTower.cpp
-    [9/25] ARTower.gen.cpp
-    [10/25] FortniteTowerDefense.init.gen.cpp
-    [11/25] Enemy1.gen.cpp
-    [12/25] MyGameModeBase.gen.cpp
+    [8/25] ARTower.gen.cpp
+    [9/25] ShotgunTower.cpp
+    [10/25] Enemy1.gen.cpp
+    [11/25] FortniteTowerDefense.init.gen.cpp
+    [12/25] Path.gen.cpp
     [13/25] FortniteTowerDefenseGameModeBase.gen.cpp
     [14/25] MyPlayerController.gen.cpp
-    [15/25] Path.gen.cpp
+    [15/25] MyGameModeBase.gen.cpp
     [16/25] ShotgunTower.gen.cpp
-    [17/25] TD_Pawn.cpp
+    [17/25] TD_Pawn.gen.cpp
     [18/25] Bullet.gen.cpp
-    [19/25] TD_Pawn.gen.cpp
+    [19/25] TD_Pawn.cpp
     [20/25] Bullet.cpp
     [21/25] Enemy1.cpp
     [22/25] Path.cpp
@@ -34,5 +34,5 @@
     [24/25] UE4Editor-FortniteTowerDefense-0001.dll
        Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0001.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0001.suppressed.exp
     [25/25] FortniteTowerDefenseEditor.target
-  Total time in Parallel executor: 37.53 seconds
-  Total execution time: 47.74 seconds
+  Total time in Parallel executor: 37.79 seconds
+  Total execution time: 48.21 seconds

@@ -56,16 +56,19 @@ void AShotgunTower::BeginPlay()
 void AShotgunTower::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	bool canFire = false;
 	for (TObjectIterator<AEnemy1> I; I; ++I)
 	{
 		if (abs((I->GetActorLocation() - gunSpot->GetComponentLocation()).Size()) < 500)
 		{
-			if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate)
-			{
-				FireBullet();
-				lastFired = GetWorld()->GetRealTimeSeconds();
-			}
+			canFire = true;
+			break;
 		}
+	}
+	if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate)
+	{
+		FireBullet();
+		lastFired = GetWorld()->GetRealTimeSeconds();
 	}
 }
 
