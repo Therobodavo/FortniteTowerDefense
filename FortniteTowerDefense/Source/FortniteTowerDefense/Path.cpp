@@ -1,6 +1,3 @@
-//Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "Path.h"
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 #include "Components/InputComponent.h"
@@ -10,20 +7,25 @@
 #include <FortniteTowerDefense\Enemy1.h>
 #include <vector>
 
-UPROPERTY(BlueprintReadWrite)
-TSubclassOf<AEnemy1> Enemy1Class;
+//Path.cpp File
+//Code for path to run in level
+//Also manages enemies and the main games code
+//Programmed by David Knolls
 
-float lastSpawned = 0;
+//Data Structure for holding enemies
 std::vector<AEnemy1*> enemies;
+
+//Variables for spawning objects
 UObject* SpawnActor = NULL;
 UBlueprint* GeneratedBP = NULL;
 UClass* SpawnClass = NULL;
-FTimerDelegate TimerDel;
+
+//Variables for timer
 FTimerHandle TimerHandle;
-//Sets default values
+
+//Constructor
 APath::APath()
 {
-	//Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	//Gets Blueprint for enemy1
@@ -32,11 +34,14 @@ APath::APath()
 	SpawnClass = SpawnActor->StaticClass();
 }
 
+//Main function to spawn an enemy based on the start location
 void APath::SpawnEnemy()
 {
+	//Find the start location of the path
 	TArray<USceneComponent*> t;
 	GetRootComponent()->GetChildrenComponents(true, t);
 	FVector Location;
+
 	for (USceneComponent* i : t)
 	{
 		if (i != NULL) 
@@ -47,45 +52,70 @@ void APath::SpawnEnemy()
 			}
 		}
 	}
+
+	//Get spawning info 
 	FRotator Rotation = GetActorRotation();
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	//Spawns enemy
 	AEnemy1* e = GetWorld()->SpawnActor<AEnemy1>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo);
+	//Adjust enemy for current wave
 	int healthAddition = wave * 50;
 	e->Health = 50 + healthAddition;
 	int speedAddition = wave * 10;
 	e->Speed = 300 + (wave * 10);
-
-	FString s;
-	s.AppendInt(healthAddition);
-	GLog->Log("Health Addition: " + s);
-	s = "";
-	s.AppendInt(speedAddition);
-	GLog->Log("Speed Addition: " + s);
+	enemiesSpawned++;
 	enemies.push_back(e);
 }
 
-//Called when the game starts or when spawned
 void APath::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//Timer for spawning enemies
+	waveStarted = true;
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &APath::SpawnEnemy, 2.f, true);
-	//REMEMBER TO CLEAR TIMER IF THIS IS DELETED
-	//GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
 }
 
-//Called every frame
+//Update function
 void APath::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if (enemiesSpawned >= wave * 3) 
+
+	//Ends wave
+	if (enemiesSpawned >= (wave * 3) && waveStarted) 
 	{
-		GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
+		GetWorldTimerManager().ClearTimer(TimerHandle);
+		GLog->Log("AHHH");
 		waveStarted = false;
+		enemiesSpawned = 0;
 	}
+
+	//Starts new wave
+	if (enemiesSpawned == 0 && waveStarted && !isStarting)
+	{
+		isStarting = true;
+		//Timer for spawning enemies
+		//GetWorldTimerManager().ClearTimer(TimerHandle);
+		GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &APath::SpawnEnemy, 2.f, true);
+	}
+
+	if (enemiesSpawned > 0 && isStarting)
+	{
+		isStarting = false;
+	}
+
+	FString s;
+	s.AppendInt(enemiesSpawned);
+	FString s2;
+	s2.AppendInt(waveStarted);
+	FString s3;
+	s3.AppendInt(GetWorldTimerManager().IsTimerActive(TimerHandle));
+	GLog->Log(s + " ---- " + s2 + " --- " + s3);
 }
 
+//Extra function for future
 void APath::SpawnTower(int type)
 {
 }

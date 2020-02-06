@@ -1,18 +1,20 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "ShotgunTower.h"
 #include "EngineUtils.h"
 #include <FortniteTowerDefense\Enemy1.h>
 #include <vector>
 #include <FortniteTowerDefense\Bullet.h>
 
+//ShotgunTower.cpp File
+//Code for Shotgun Tower to run
+//Spawns bullets to damage and kill enemies (5 at a time in rotated directions)
+//Programmed by David Knolls
+
+//Data structure for holding bullets
 std::vector<ABullet*> bullets;
 
-// Sets default values
+//Constructor
 AShotgunTower::AShotgunTower()
 {
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	//Gets Blueprint for projectile
@@ -21,10 +23,12 @@ AShotgunTower::AShotgunTower()
 	SpawnClass = SpawnActor->StaticClass();
 }
 
-// Called when the game starts or when spawned
+//Initial Settings
 void AShotgunTower::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Gets all components for tower
 	TArray<USceneComponent*> parts;
 	GetRootComponent()->GetChildrenComponents(true, parts);
 	for (USceneComponent* currentPart : parts)
@@ -52,33 +56,43 @@ void AShotgunTower::BeginPlay()
 	}
 }
 
-// Called every frame
+//Update function
 void AShotgunTower::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//Checks firing range and firerate before firing bullets
 	bool canFire = false;
-	for (TObjectIterator<AEnemy1> I; I; ++I)
+	for (TActorIterator<AEnemy1> I(GetWorld()); I; ++I)
 	{
-		if (abs((I->GetActorLocation() - gunSpot->GetComponentLocation()).Size()) < 500)
+		if (I->GetRootComponent()->ComponentHasTag("Enemy")) 
 		{
-			canFire = true;
-			break;
+			if (abs((I->GetActorLocation() - gunSpot->GetComponentLocation()).Size()) < 500)
+			{
+				canFire = true;
+				GLog->Log(I->GetName());
+				break;
+			}
 		}
 	}
-	if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate)
+	if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate && canFire)
 	{
+		//Runs bullet creation function for this tower
 		FireBullet();
 		lastFired = GetWorld()->GetRealTimeSeconds();
 	}
 }
 
+//Function for creating bullets
 void AShotgunTower::FireBullet()
 {
-
+	//Bullet spawn info
 	FVector Location = bullet->GetComponentLocation();
 	FRotator Rotation = GetActorRotation();
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	//Create bullets (5 all rotated slightly around an origin bullet)
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
 	Rotation = GetActorRotation() - FRotator(0,3,0);
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
@@ -90,6 +104,7 @@ void AShotgunTower::FireBullet()
 	bullets.push_back(GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo));
 }
 
+//Unused Overlap Function
 void AShotgunTower::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 

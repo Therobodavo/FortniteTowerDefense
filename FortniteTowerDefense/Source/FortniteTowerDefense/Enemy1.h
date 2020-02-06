@@ -27,7 +27,7 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "PathFollowing")
 		TArray<USceneComponent*> PathBlocks;
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "PathFollowing")
-		FVector Direction;
+		FVector Direction = FVector(0,0,0);
 
 	USceneComponent* currentTarget = NULL;
 	float Speed = 300;

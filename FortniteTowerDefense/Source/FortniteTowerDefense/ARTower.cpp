@@ -1,21 +1,23 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "ARTower.h"
 #include "EngineUtils.h"
 #include <FortniteTowerDefense\Enemy1.h>
 #include <vector>
 #include <FortniteTowerDefense\Bullet.h>
 
+//ARTower.cpp File
+//Code for AR Tower to run
+//Spawns bullets to damage and kill enemies
+//Programmed by David Knolls
+
+//Data Sctructure for holding bullets
 std::vector<ABullet*> allBullets;
 
-// Sets default values
+//Constructor
 AARTower::AARTower()
 {
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	////Gets Blueprint for projectile
+	//Gets Blueprint for projectile
 	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/Blueprints/BP_Bullet.BP_Bullet'")));
 	GeneratedBP = Cast<UBlueprint>(SpawnActor);
 	SpawnClass = SpawnActor->StaticClass();
@@ -25,6 +27,8 @@ AARTower::AARTower()
 void AARTower::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Loop through all component parts
 	TArray<USceneComponent*> parts;
 	GetRootComponent()->GetChildrenComponents(true, parts);
 	for (USceneComponent* currentPart : parts)
@@ -55,12 +59,14 @@ void AARTower::BeginPlay()
 	}
 }
 
-// Called every frame
+//Update function called every frame
 void AARTower::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//Fires bullets based off nearby enemies and firerate
 	bool canFire = false;
-	for (TObjectIterator<AEnemy1> I; I; ++I)
+	for (TActorIterator<AEnemy1> I(GetWorld()); I; ++I)
 	{
 		if (abs((I->GetActorLocation() - bullet->GetComponentLocation()).Size()) < 700)
 		{
@@ -70,26 +76,31 @@ void AARTower::Tick(float DeltaTime)
 	}
 	if (GetWorld()->GetRealTimeSeconds() - lastFired > fireRate && canFire)
 	{
+		//Calls function to create bullets based on current tower
 		FireBullet();
 		lastFired = GetWorld()->GetRealTimeSeconds();
 	}
 }
 
+//Function to create bullets based on tower
 void AARTower::FireBullet()
 {
-
+	//Gets info for bullet spawning
 	FVector Location = bullet->GetComponentLocation();
 	FRotator Rotation = GetActorRotation();
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	//Create bullet with values for AR tower
 	ABullet* b = GetWorld()->SpawnActor<ABullet>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo);
 	b->damage = damage;
 	b->despawnTime = .4;
 	allBullets.push_back(b);
 }
 
+//Function when object overlaps tower
 void AARTower::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-
+	//Add if needed
 }
 

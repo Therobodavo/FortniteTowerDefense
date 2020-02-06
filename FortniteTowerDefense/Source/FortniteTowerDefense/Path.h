@@ -33,4 +33,5 @@ public:
 	int money = 0;
 	bool waveStarted = false;
 	int enemiesSpawned = 0;
+	bool isStarting = false;
 };

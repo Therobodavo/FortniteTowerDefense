@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FortniteTowerDefense.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2C938109-B34A-49C8-83D8-41A3026377A4}</UniqueIdentifier>
+      <UniqueIdentifier>{14776E8B-3A24-4D4A-96A4-A883B69659C6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FortniteTowerDefense.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3F9724A5-B87F-4A17-B8F2-568937F113F0}</UniqueIdentifier>
+      <UniqueIdentifier>{70CFCFA5-AA25-4E2A-AEE4-49D7EF160970}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FortniteTowerDefense">
-      <UniqueIdentifier>{57D3F3E2-783B-4D69-9641-082CA8B76958}</UniqueIdentifier>
+      <UniqueIdentifier>{48642C36-5A6F-48F8-8E7C-822B9BB05863}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FortniteTowerDefense\ARTower.cpp">
       <Filter>Source\FortniteTowerDefense</Filter>

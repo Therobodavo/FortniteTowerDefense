@@ -28,16 +28,16 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "PathFollowing")
 		void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
-	USceneComponent* gunSpot;
-	USceneComponent* gun;
-	USceneComponent* bullet;
-	USceneComponent* tower;
-	USceneComponent* display;
+	USceneComponent* gunSpot = NULL;
+	USceneComponent* gun = NULL;
+	USceneComponent* bullet = NULL;
+	USceneComponent* tower = NULL;
+	USceneComponent* display = NULL;
 
 
-	UObject* SpawnActor;
-	UBlueprint* GeneratedBP;
-	UClass* SpawnClass;
+	UObject* SpawnActor = NULL;
+	UBlueprint* GeneratedBP = NULL;
+	UClass* SpawnClass = NULL;
 
 	float lastFired = 0;
 	float fireRate = 2;

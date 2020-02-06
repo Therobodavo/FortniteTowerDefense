@@ -24,7 +24,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	UFUNCTION(BlueprintCallable, Category = "PathFollowing")
 		void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-	UStaticMeshComponent* collider;
+	UStaticMeshComponent* collider = NULL;
 	float timeCreated = 0;
 	float damage = 25;
 	float despawnTime = .15;

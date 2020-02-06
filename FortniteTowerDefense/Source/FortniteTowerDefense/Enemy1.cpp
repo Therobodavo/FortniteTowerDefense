@@ -1,15 +1,18 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "Enemy1.h"
 #include "EngineUtils.h"
 #include <FortniteTowerDefense\Path.h>
 #include "Engine.h"
 #include<string>
 
+//Enemy1.cpp File
+//Code for basic enemies that follow a path
+//Programmed by David Knolls
+
+//Collider to access
 UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Stats")
 UStaticMeshComponent* collider;
-// Sets default values
+
+//Initial Settings
 AEnemy1::AEnemy1()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
@@ -18,10 +21,12 @@ AEnemy1::AEnemy1()
 	isMoving = true;
 }
 
-// Called when the game starts or when spawned
+//Constructor
 void AEnemy1::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Get the entire path then find the initial starting spot
 	for (TObjectIterator<APath> I; I; ++I)
 	{
 		if (I->GetName() == "MAPPATH")
@@ -40,6 +45,7 @@ void AEnemy1::BeginPlay()
 			}
 		}
 
+		//Get Collider and add overlap function
 		TArray<USceneComponent*> allComponents;
 		GetRootComponent()->GetChildrenComponents(true, allComponents);
 
@@ -50,6 +56,7 @@ void AEnemy1::BeginPlay()
 				collider = Cast<UStaticMeshComponent>(allComponents[i]);
 				if (collider != NULL)
 				{
+					//Add Overlap function
 					collider->OnComponentBeginOverlap.AddDynamic(this, &AEnemy1::OnOverlap);
 					break;
 				}
@@ -60,10 +67,12 @@ void AEnemy1::BeginPlay()
 
 }
 
-// Called every frame
+//Update, moves player to current target
 void AEnemy1::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//Movement logic/math
 	if (isMoving)
 	{
 		//Move to current pathspot
@@ -77,6 +86,8 @@ void AEnemy1::Tick(float DeltaTime)
 		
 		
 	}
+
+	//If the enemy should die
 	if (Health <= 0)
 	{
 		Destroy();
@@ -84,6 +95,7 @@ void AEnemy1::Tick(float DeltaTime)
 
 }
 
+//Overlap function, used for path spots
 void AEnemy1::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherComp != NULL)
@@ -93,9 +105,11 @@ void AEnemy1::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 		{
 			Destroy();
 		}
+		//If currently overlapping path spot
 		if (OtherComp->ComponentHasTag("PathSpot") && OtherComp->GetName() != "Start")
 		{
 			
+			//Convert path component to a number, add 1, then convert back to string to find
 			pathIndex = FCString::Atoi(*OtherComp->GetName()) + 1;
 			for (USceneComponent* i : PathBlocks)
 			{

@@ -1,38 +1,33 @@
 ﻿  Cleaning FortniteTowerDefenseEditor and UnrealHeaderTool binaries...
+UnrealBuildTool : error : Unable to delete D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Binaries\Win64\UE4Editor-FortniteTowerDefense.dll (Access to the path 'D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Binaries\Win64\UE4Editor-FortniteTowerDefense.dll' is denied.)
   Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unreal\FortniteTowerDefense).
   Creating makefile for FortniteTowerDefenseEditor (no existing makefile)
   Parsing headers for FortniteTowerDefenseEditor
     Running UnrealHeaderTool "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" "D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\FortniteTowerDefenseEditor\Development\FortniteTowerDefenseEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FortniteTowerDefenseEditor in 7.3374241 seconds
+  Reflection code generated for FortniteTowerDefenseEditor in 7.7202727 seconds
   Building FortniteTowerDefenseEditor...
   Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 25 actions with 8 processes...
-    [1/25] Default.rc2
-    [2/25] SharedPCH.Engine.ShadowErrors.cpp
-    [3/25] FortniteTowerDefense.cpp
-    [4/25] FortniteTowerDefenseGameModeBase.cpp
-    [5/25] MyPlayerController.cpp
-    [6/25] MyGameModeBase.cpp
-    [7/25] ARTower.cpp
-    [8/25] ARTower.gen.cpp
-    [9/25] ShotgunTower.cpp
-    [10/25] Enemy1.gen.cpp
-    [11/25] FortniteTowerDefense.init.gen.cpp
-    [12/25] Path.gen.cpp
-    [13/25] FortniteTowerDefenseGameModeBase.gen.cpp
-    [14/25] MyPlayerController.gen.cpp
-    [15/25] MyGameModeBase.gen.cpp
-    [16/25] ShotgunTower.gen.cpp
-    [17/25] TD_Pawn.gen.cpp
-    [18/25] Bullet.gen.cpp
-    [19/25] TD_Pawn.cpp
-    [20/25] Bullet.cpp
-    [21/25] Enemy1.cpp
-    [22/25] Path.cpp
-    [23/25] UE4Editor-FortniteTowerDefense-0001.lib
+  Building 21 actions with 8 processes...
+    [1/21] Default.rc2
+    [2/21] SharedPCH.Engine.ShadowErrors.cpp
+    [3/21] FortniteTowerDefenseGameModeBase.cpp
+    [4/21] ARTower.cpp
+    [5/21] FortniteTowerDefense.cpp
+    [6/21] ARTower.gen.cpp
+    [7/21] ShotgunTower.cpp
+    [8/21] FortniteTowerDefense.init.gen.cpp
+    [9/21] Path.gen.cpp
+    [10/21] Enemy1.gen.cpp
+    [11/21] FortniteTowerDefenseGameModeBase.gen.cpp
+    [12/21] TD_Pawn.gen.cpp
+    [13/21] ShotgunTower.gen.cpp
+    [14/21] Bullet.gen.cpp
+    [15/21] TD_Pawn.cpp
+    [16/21] Path.cpp
+    [17/21] Bullet.cpp
+    [18/21] Enemy1.cpp
+    [19/21] UE4Editor-FortniteTowerDefense-0001.dll
+LINK : fatal error LNK1104: cannot open file 'D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Binaries\Win64\UE4Editor-FortniteTowerDefense-0001.dll'
+    [20/21] UE4Editor-FortniteTowerDefense-0001.lib
        Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0001.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0001.exp
-    [24/25] UE4Editor-FortniteTowerDefense-0001.dll
-       Creating library D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0001.suppressed.lib and object D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\Intermediate\Build\Win64\UE4Editor\Development\FortniteTowerDefense\UE4Editor-FortniteTowerDefense-0001.suppressed.exp
-    [25/25] FortniteTowerDefenseEditor.target
-  Total time in Parallel executor: 37.79 seconds
-  Total execution time: 48.21 seconds
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""D:\Epic Games\UE_4.24\Engine\Build\BatchFiles\Rebuild.bat" FortniteTowerDefenseEditor Win64 Development -Project="D:\College Stuff\Unreal\FortniteTowerDefense\FortniteTowerDefense\FortniteTowerDefense.uproject" -WaitMutex -FromMsBuild" exited with code -1.
